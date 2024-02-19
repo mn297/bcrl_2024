@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "BCRL_power_supply")(type "KiCad")(uri "C:/Users/john/Documents/DATA/programming_dirty/bcrl_dirty/bcrl_martin/kicad_files/footprints")(options "")(descr ""))
+  (lib (name "BCRL_power_supply")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
 )
