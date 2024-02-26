@@ -477,6 +477,46 @@
     [
       "94fee228-5462-46f6-ad6c-1e47c0f1b343",
       "TxRFswMUXv1 board"
+    ],
+    [
+      "c039bccf-3be1-43af-8b76-0ca17da1fb41",
+      "PYBE20-Q48-S5_EMC_2"
+    ],
+    [
+      "c35d8ada-b51d-4898-80a7-064f1b10b5ec",
+      "PYBE20-Q48-S5_EMC_3"
+    ],
+    [
+      "1086eb20-5b82-4ba4-858a-8bee05c23fdd",
+      "PDQ10-Q48-S3-D_EMC_1"
+    ],
+    [
+      "6ddb7e67-8545-46a3-9e44-5c96c89d3435",
+      "PYBE20-Q48-S5_EMC_1"
+    ],
+    [
+      "b51a450f-a417-4376-bdb4-fbea692f0aa4",
+      "EHHD010A0B41-HZ_EMC"
+    ],
+    [
+      "e906dc70-4b76-4ecb-a5b5-dda2fead03e3",
+      "PYBE20-Q48-S5_EMC_4"
+    ],
+    [
+      "e938eaba-eb56-49ed-80f3-a12ee00142e6",
+      "PQC50-48-S5-O_EMC_trimmed_1"
+    ],
+    [
+      "e1d87727-a2db-43d5-a054-d861d2da443d",
+      "PQC50-48-S5-O_EMC_trimmed_2"
+    ],
+    [
+      "019bd784-fc8a-4915-bb29-73e635153bab",
+      "PQC50-48-S5-O_EMC_trimmed_3"
+    ],
+    [
+      "6efab62c-d970-45e4-8a68-64d7e13808b2",
+      "PQC50-48-S5-O_EMC_trimmed_4"
     ]
   ],
   "text_variables": {}

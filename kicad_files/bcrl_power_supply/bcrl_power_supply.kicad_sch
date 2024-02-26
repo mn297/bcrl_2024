@@ -323,7 +323,7 @@
   (symbol (lib_id "BCRL_power_supply:OSTVN02A150") (at 39.37 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 221e84c3-893a-4a42-8a49-60340926ce28)
-    (property "Reference" "J10" (at 53.34 34.29 0)
+    (property "Reference" "J2" (at 53.34 34.29 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "OSTVN02A150" (at 53.34 36.83 0)
@@ -340,7 +340,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "J10") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -349,7 +349,7 @@
   (symbol (lib_id "power:+48V") (at 30.48 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ad2f28f-d83d-4849-9599-9d44afbdcc23)
-    (property "Reference" "#PWR090" (at 34.29 24.13 0)
+    (property "Reference" "#PWR01" (at 34.29 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+48V" (at 31.75 24.13 90)
@@ -365,7 +365,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -374,7 +374,7 @@
   (symbol (lib_id "power:+48V") (at 30.48 34.29 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5648c4cf-e305-47e2-b1c2-454f41a113aa)
-    (property "Reference" "#PWR01" (at 34.29 34.29 0)
+    (property "Reference" "#PWR03" (at 34.29 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+48V" (at 31.75 34.29 90)
@@ -390,7 +390,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -399,7 +399,7 @@
   (symbol (lib_id "power:GND") (at 30.48 26.67 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74f04d59-f27f-4601-84d1-d64ee28f29a8)
-    (property "Reference" "#PWR091" (at 24.13 26.67 0)
+    (property "Reference" "#PWR02" (at 24.13 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 26.67 90)
@@ -415,7 +415,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -424,7 +424,7 @@
   (symbol (lib_id "power:GND") (at 30.48 36.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8989130f-dfea-4490-8d89-b0df5bef0ef4)
-    (property "Reference" "#PWR02" (at 24.13 36.83 0)
+    (property "Reference" "#PWR04" (at 24.13 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 36.83 90)
@@ -440,7 +440,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -449,7 +449,7 @@
   (symbol (lib_id "BCRL_power_supply:OSTVN02A150") (at 39.37 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a0cc14f-18c8-4839-8c72-2c858f747f02)
-    (property "Reference" "J12" (at 53.34 24.13 0)
+    (property "Reference" "J1" (at 53.34 24.13 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "OSTVN02A150" (at 53.34 26.67 0)
@@ -466,7 +466,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-          (reference "J12") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
