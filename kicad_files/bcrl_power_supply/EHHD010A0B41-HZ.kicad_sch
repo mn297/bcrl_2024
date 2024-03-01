@@ -164,7 +164,7 @@
   (symbol (lib_id "power:GND") (at 147.32 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05579ecf-27da-4e40-9dc6-a15d1629ad93)
-    (property "Reference" "#PWR064" (at 147.32 107.95 0)
+    (property "Reference" "#PWR066" (at 147.32 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 106.68 0)
@@ -180,7 +180,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/b51a450f-a417-4376-bdb4-fbea692f0aa4"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR066") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -189,7 +192,7 @@
   (symbol (lib_id "power:GND") (at 113.03 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d30e862-8506-45f5-9aa7-9664f6392da9)
-    (property "Reference" "#PWR063" (at 113.03 107.95 0)
+    (property "Reference" "#PWR065" (at 113.03 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 106.68 0)
@@ -205,7 +208,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/b51a450f-a417-4376-bdb4-fbea692f0aa4"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR065") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -271,6 +277,9 @@
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/b51a450f-a417-4376-bdb4-fbea692f0aa4"
           (reference "PS4") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
+          (reference "PS14") (unit 1)
         )
       )
     )

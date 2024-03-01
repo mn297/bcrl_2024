@@ -275,6 +275,9 @@
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/1086eb20-5b82-4ba4-858a-8bee05c23fdd"
           (reference "U1") (unit 1)
         )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
+          (reference "U2") (unit 1)
+        )
       )
     )
   )
@@ -300,6 +303,9 @@
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/1086eb20-5b82-4ba4-858a-8bee05c23fdd"
           (reference "C14") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
+          (reference "C80") (unit 1)
         )
       )
     )
@@ -327,6 +333,9 @@
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/1086eb20-5b82-4ba4-858a-8bee05c23fdd"
           (reference "C13") (unit 1)
         )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
+          (reference "C79") (unit 1)
+        )
       )
     )
   )
@@ -334,7 +343,7 @@
   (symbol (lib_id "power:GND") (at 143.51 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5695e5-0490-4930-bf8c-6d71491a6dad)
-    (property "Reference" "#PWR060" (at 143.51 92.71 0)
+    (property "Reference" "#PWR062" (at 143.51 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 91.44 0)
@@ -350,7 +359,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/1086eb20-5b82-4ba4-858a-8bee05c23fdd"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR062") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -359,7 +371,7 @@
   (symbol (lib_id "power:GND") (at 49.53 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc93b883-7b31-4db9-abc0-928fe306772a)
-    (property "Reference" "#PWR059" (at 49.53 107.95 0)
+    (property "Reference" "#PWR061" (at 49.53 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 106.68 0)
@@ -375,7 +387,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/1086eb20-5b82-4ba4-858a-8bee05c23fdd"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR061") (unit 1)
+        )
+        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
+          (reference "#PWR0140") (unit 1)
         )
       )
     )

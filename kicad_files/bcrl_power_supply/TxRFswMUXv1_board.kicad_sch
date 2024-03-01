@@ -1125,7 +1125,7 @@
   (symbol (lib_id "power:+8V") (at 342.9 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 012c1d74-2745-4ae0-afec-8485239b3cdc)
-    (property "Reference" "#PWR052" (at 342.9 114.3 0)
+    (property "Reference" "#PWR054" (at 342.9 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 342.9 105.41 0)
@@ -1141,7 +1141,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "power:GND") (at 167.64 116.84 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 069385fc-6a14-4d5d-9118-fd48de2e55e4)
-    (property "Reference" "#PWR041" (at 161.29 116.84 0)
+    (property "Reference" "#PWR043" (at 161.29 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 116.84 90)
@@ -1166,7 +1166,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -1175,7 +1175,7 @@
   (symbol (lib_id "power:GND") (at 111.76 49.53 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07f8db2b-f229-437c-8802-3f126c2cc406)
-    (property "Reference" "#PWR021" (at 105.41 49.53 0)
+    (property "Reference" "#PWR023" (at 105.41 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 49.53 90)
@@ -1191,7 +1191,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1200,7 +1200,7 @@
   (symbol (lib_id "BCRL_power_supply:5034801600") (at 190.5 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e08af02-a7a2-4846-a4a7-b0da578dbe84)
-    (property "Reference" "J11" (at 196.85 63.5 0)
+    (property "Reference" "J13" (at 196.85 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5034801600" (at 196.85 66.04 0)
@@ -1245,7 +1245,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "J11") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1280,7 +1280,7 @@
   (symbol (lib_id "power:+12V") (at 420.37 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a9d630-e815-4010-af10-40a74c70613f)
-    (property "Reference" "#PWR054" (at 420.37 83.82 0)
+    (property "Reference" "#PWR056" (at 420.37 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 420.37 74.93 0)
@@ -1296,7 +1296,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1305,7 +1305,7 @@
   (symbol (lib_id "power:+3.3V") (at 418.465 48.895 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21b1d926-58d8-43ac-82ad-2041fcda9fbc)
-    (property "Reference" "#PWR053" (at 418.465 52.705 0)
+    (property "Reference" "#PWR055" (at 418.465 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 418.465 43.815 0)
@@ -1321,7 +1321,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -1330,7 +1330,7 @@
   (symbol (lib_id "power:+8V") (at 342.9 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2229c9f0-9dfb-4fe2-a650-e9d81d3f59f8)
-    (property "Reference" "#PWR050" (at 342.9 72.39 0)
+    (property "Reference" "#PWR052" (at 342.9 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 342.9 63.5 0)
@@ -1346,7 +1346,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -1380,7 +1380,7 @@
   (symbol (lib_id "power:GND") (at 167.64 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24387186-81e5-4f9f-92b9-09469392fd05)
-    (property "Reference" "#PWR040" (at 161.29 114.3 0)
+    (property "Reference" "#PWR042" (at 161.29 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 114.3 90)
@@ -1396,7 +1396,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "power:GND") (at 167.64 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 249695f7-a50d-4018-9b72-3094ce7017b9)
-    (property "Reference" "#PWR033" (at 161.29 41.91 0)
+    (property "Reference" "#PWR035" (at 161.29 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 41.91 90)
@@ -1421,7 +1421,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1430,7 +1430,7 @@
   (symbol (lib_id "power:GND") (at 167.64 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24ba8e36-b5a1-477e-b155-628c7e53b45e)
-    (property "Reference" "#PWR038" (at 161.29 87.63 0)
+    (property "Reference" "#PWR040" (at 161.29 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 87.63 90)
@@ -1446,7 +1446,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1548,7 +1548,7 @@
   (symbol (lib_id "power:+3.3V") (at 111.76 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d1d0be1-aeef-4df2-bc6f-88a995145676)
-    (property "Reference" "#PWR022" (at 115.57 52.07 0)
+    (property "Reference" "#PWR024" (at 115.57 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 52.07 90)
@@ -1564,7 +1564,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1598,7 +1598,7 @@
   (symbol (lib_id "power:+5V") (at 276.86 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 462ce980-8eac-4aa5-a99f-b75faae7e30a)
-    (property "Reference" "#PWR045" (at 276.86 50.8 0)
+    (property "Reference" "#PWR047" (at 276.86 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 276.86 41.91 0)
@@ -1614,7 +1614,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1623,7 +1623,7 @@
   (symbol (lib_id "power:+3.3V") (at 111.76 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47eb3a97-a379-4f8d-bb37-6dedd665590f)
-    (property "Reference" "#PWR031" (at 115.57 139.7 0)
+    (property "Reference" "#PWR033" (at 115.57 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 139.7 90)
@@ -1639,7 +1639,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1648,7 +1648,7 @@
   (symbol (lib_id "power:+5V") (at 278.13 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e7987e1-e572-4438-a9da-c02eb38d4192)
-    (property "Reference" "#PWR047" (at 278.13 91.44 0)
+    (property "Reference" "#PWR049" (at 278.13 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 278.13 82.55 0)
@@ -1664,7 +1664,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1673,7 +1673,7 @@
   (symbol (lib_id "power:GND") (at 167.64 85.09 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4f969b58-18cf-4471-ad16-44d0142ac051)
-    (property "Reference" "#PWR037" (at 161.29 85.09 0)
+    (property "Reference" "#PWR039" (at 161.29 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 85.09 90)
@@ -1689,7 +1689,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1775,7 +1775,7 @@
   (symbol (lib_id "power:GND") (at 167.64 96.52 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a732910-fb02-475c-9cdd-b4fab667afe5)
-    (property "Reference" "#PWR039" (at 161.29 96.52 0)
+    (property "Reference" "#PWR041" (at 161.29 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 96.52 90)
@@ -1791,7 +1791,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1825,7 +1825,7 @@
   (symbol (lib_id "power:GND") (at 167.64 62.23 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ccdc7c6-bd2c-48f7-9bef-66d3f9557fc8)
-    (property "Reference" "#PWR035" (at 161.29 62.23 0)
+    (property "Reference" "#PWR037" (at 161.29 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 62.23 90)
@@ -1841,7 +1841,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1850,7 +1850,7 @@
   (symbol (lib_id "power:+3.3V") (at 111.76 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63362c82-baa4-44a8-9961-e70a8c480a70)
-    (property "Reference" "#PWR028" (at 115.57 110.49 0)
+    (property "Reference" "#PWR030" (at 115.57 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 110.49 90)
@@ -1866,7 +1866,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "power:GND") (at 111.76 78.74 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c76134c-0142-4b7f-a9da-7de4fca468b6)
-    (property "Reference" "#PWR024" (at 105.41 78.74 0)
+    (property "Reference" "#PWR026" (at 105.41 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 78.74 90)
@@ -1891,7 +1891,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1925,7 +1925,7 @@
   (symbol (lib_id "power:GND") (at 167.64 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 729a0775-c8d9-4616-ba1d-a7e8d7b06fd4)
-    (property "Reference" "#PWR043" (at 161.29 139.7 0)
+    (property "Reference" "#PWR045" (at 161.29 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 139.7 90)
@@ -1941,7 +1941,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -1950,7 +1950,7 @@
   (symbol (lib_id "BCRL_power_supply:5034801600") (at 190.5 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 760446d0-4b66-4b25-a8bf-09b44d94b62d)
-    (property "Reference" "J12" (at 196.85 118.11 0)
+    (property "Reference" "J14" (at 196.85 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5034801600" (at 196.85 120.65 0)
@@ -1995,7 +1995,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "J12") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -2030,7 +2030,7 @@
   (symbol (lib_id "power:+5V") (at 278.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87c3d356-6d2b-44ac-b797-b4fd196532ff)
-    (property "Reference" "#PWR048" (at 278.13 110.49 0)
+    (property "Reference" "#PWR050" (at 278.13 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 278.13 101.6 0)
@@ -2046,7 +2046,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "power:+8V") (at 342.9 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87df6f46-ec95-42de-92f2-343b3c6212a0)
-    (property "Reference" "#PWR051" (at 342.9 93.98 0)
+    (property "Reference" "#PWR053" (at 342.9 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 342.9 85.09 0)
@@ -2071,7 +2071,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "power:+3.3V") (at 111.76 81.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93a26704-d07f-4ee9-ab9a-73e90edb30d1)
-    (property "Reference" "#PWR025" (at 115.57 81.28 0)
+    (property "Reference" "#PWR027" (at 115.57 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 107.95 81.28 90)
@@ -2122,7 +2122,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2131,7 +2131,7 @@
   (symbol (lib_id "power:GND") (at 40.005 189.865 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95dce140-f35a-45c6-aec5-9e3ee663950b)
-    (property "Reference" "#PWR080" (at 33.655 189.865 0)
+    (property "Reference" "#PWR022" (at 33.655 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.195 189.865 90)
@@ -2147,7 +2147,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2224,7 +2224,7 @@
   (symbol (lib_id "power:GND") (at 111.76 137.16 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b9f6cde-36f7-437a-86f6-32682eb3e31e)
-    (property "Reference" "#PWR030" (at 105.41 137.16 0)
+    (property "Reference" "#PWR032" (at 105.41 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 137.16 90)
@@ -2240,7 +2240,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -2249,7 +2249,7 @@
   (symbol (lib_id "power:+5V") (at 278.13 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d5594b6-2884-4d23-9d03-f1730e2c1359)
-    (property "Reference" "#PWR046" (at 278.13 72.39 0)
+    (property "Reference" "#PWR048" (at 278.13 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 278.13 63.5 0)
@@ -2265,7 +2265,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -2274,7 +2274,7 @@
   (symbol (lib_id "2024-02-14_22-22-09:OSTVN02A150") (at 40.005 169.545 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab3f8135-7cdb-4b26-b5c1-b608e103fcc0)
-    (property "Reference" "J13" (at 53.975 169.545 0)
+    (property "Reference" "J11" (at 53.975 169.545 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "OSTVN02A150" (at 53.975 172.085 0)
@@ -2291,7 +2291,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "J13") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2325,7 +2325,7 @@
   (symbol (lib_id "2024-02-14_22-22-09:OSTVN02A150") (at 40.005 187.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9ddb9c2-4bec-44ad-890b-9e9420dc9c89)
-    (property "Reference" "J14" (at 53.975 187.325 0)
+    (property "Reference" "J12" (at 53.975 187.325 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "OSTVN02A150" (at 53.975 189.865 0)
@@ -2342,7 +2342,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "J14") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -2376,7 +2376,7 @@
   (symbol (lib_id "power:GND") (at 111.76 107.95 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdb83aaa-7a8f-452d-9b65-bbedb0c983be)
-    (property "Reference" "#PWR027" (at 105.41 107.95 0)
+    (property "Reference" "#PWR029" (at 105.41 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 107.95 90)
@@ -2392,7 +2392,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2401,7 +2401,7 @@
   (symbol (lib_id "power:GND") (at 167.64 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c31dddf9-2c26-46b8-adfe-a0cb563539a4)
-    (property "Reference" "#PWR036" (at 161.29 80.01 0)
+    (property "Reference" "#PWR038" (at 161.29 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 80.01 90)
@@ -2417,7 +2417,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -2451,7 +2451,7 @@
   (symbol (lib_id "power:GND") (at 111.76 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb2e2cd3-0a03-4b1e-9eb9-63acca2fad33)
-    (property "Reference" "#PWR023" (at 105.41 54.61 0)
+    (property "Reference" "#PWR025" (at 105.41 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 54.61 90)
@@ -2467,7 +2467,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2502,7 +2502,7 @@
   (symbol (lib_id "power:GND") (at 111.76 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cde8bd00-9251-477c-9beb-3eceace23aa2)
-    (property "Reference" "#PWR032" (at 105.41 142.24 0)
+    (property "Reference" "#PWR034" (at 105.41 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 142.24 90)
@@ -2518,7 +2518,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -2577,7 +2577,7 @@
   (symbol (lib_id "power:GND") (at 167.64 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3bfe70e-f677-4a96-ad84-af1cd00532e9)
-    (property "Reference" "#PWR044" (at 161.29 142.24 0)
+    (property "Reference" "#PWR046" (at 161.29 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 142.24 90)
@@ -2593,7 +2593,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -2645,7 +2645,7 @@
   (symbol (lib_id "power:GND") (at 167.64 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db2a788d-a16e-49f5-841f-d69d4bf9e046)
-    (property "Reference" "#PWR034" (at 161.29 59.69 0)
+    (property "Reference" "#PWR036" (at 161.29 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 59.69 90)
@@ -2661,7 +2661,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2747,7 +2747,7 @@
   (symbol (lib_id "power:+8V") (at 342.9 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea4b6d35-3025-4213-aa92-d47809153abf)
-    (property "Reference" "#PWR049" (at 342.9 50.8 0)
+    (property "Reference" "#PWR051" (at 342.9 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 342.9 41.91 0)
@@ -2763,7 +2763,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -2797,7 +2797,7 @@
   (symbol (lib_id "power:GND") (at 111.76 83.82 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edb8cb58-efd9-4a1c-af10-8ee0f10b1446)
-    (property "Reference" "#PWR026" (at 105.41 83.82 0)
+    (property "Reference" "#PWR028" (at 105.41 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 83.82 90)
@@ -2813,7 +2813,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2847,7 +2847,7 @@
   (symbol (lib_id "power:GND") (at 167.64 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f14bb748-f88f-4b44-9b95-6f9743f4f5a8)
-    (property "Reference" "#PWR042" (at 161.29 134.62 0)
+    (property "Reference" "#PWR044" (at 161.29 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 168.91 134.62 90)
@@ -2863,7 +2863,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -2872,7 +2872,7 @@
   (symbol (lib_id "power:GND") (at 111.76 113.03 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f57535d3-1483-4436-aa8c-03f1087b21df)
-    (property "Reference" "#PWR029" (at 105.41 113.03 0)
+    (property "Reference" "#PWR031" (at 105.41 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 113.03 90)
@@ -2888,7 +2888,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2940,7 +2940,7 @@
   (symbol (lib_id "power:GND") (at 40.005 172.085 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fed62653-108e-4283-8bda-5666c54625cf)
-    (property "Reference" "#PWR079" (at 33.655 172.085 0)
+    (property "Reference" "#PWR021" (at 33.655 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.195 172.085 90)
@@ -2956,7 +2956,7 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
