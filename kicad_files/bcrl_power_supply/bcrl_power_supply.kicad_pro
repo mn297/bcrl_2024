@@ -487,7 +487,7 @@
       "PYBE20-Q48-S5_EMC_3"
     ],
     [
-      "1086eb20-5b82-4ba4-858a-8bee05c23fdd",
+      "6ef64b97-f9dc-450f-b711-7d52ab21fa20",
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
@@ -579,52 +579,24 @@
       "RxBFN-16C"
     ],
     [
-      "d702622f-bff7-40be-9e7d-ac1162feb800",
-      "TxBFN-16C1"
+      "b08c53be-3c36-4aa7-b4db-fe44d17a238c",
+      "Tx RPi4 HAT board1"
     ],
     [
-      "ec1f49a4-c646-4629-9f7e-f2c8a7905e55",
-      "TxBFN-16F1"
+      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
+      "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
-      "65a9357b-66cd-4559-8394-c45d8fe208c5",
-      "RxBFN-16F1"
+      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
+      "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
-      "9a620cdf-19ed-4a48-8cad-05445571e288",
-      "RxBFN-16C1"
+      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
+      "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
-      "f01bf1ab-b338-4472-b766-a7b63a6bb1a1",
-      "TxBFN-16C2"
-    ],
-    [
-      "ad7ee835-e830-4fa6-b77a-b161faac4e04",
-      "TxBFN-16F2"
-    ],
-    [
-      "fcbcbc49-5145-4f3d-8e9c-72aaa51256f4",
-      "RxBFN-16F2"
-    ],
-    [
-      "95408b4b-e23c-440e-902a-213800534528",
-      "RxBFN-16C2"
-    ],
-    [
-      "165bfcfb-ad3c-4abc-a29b-130b3462edf1",
-      "TxBFN-16C3"
-    ],
-    [
-      "0c351ee7-084d-442e-b2d4-c2f52ce223ac",
-      "TxBFN-16F3"
-    ],
-    [
-      "55cd2df9-15ba-4f39-88ea-17f4bbb6935e",
-      "RxBFN-16F3"
-    ],
-    [
-      "00fea1a9-34f0-4c74-8ea0-4d47a1ad794b",
-      "RxBFN-16C3"
+      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
+      "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
       "7ab5448f-bd34-4432-b359-f13f98fccb68",
@@ -633,54 +605,6 @@
     [
       "3eea0769-b0fa-4084-b012-c895759d5215",
       "Tx_AGC"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
     ],
     [
       "acd3b3ab-976d-4699-bf54-77b01a76c029",

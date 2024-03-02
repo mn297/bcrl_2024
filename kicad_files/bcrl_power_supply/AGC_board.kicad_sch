@@ -157,10 +157,6 @@
     (uuid 734b4de2-c204-4f5a-b745-e87622662ad0)
   )
 
-  (label "VCC_shared" (at 50.165 47.625 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 872a8065-ddea-49f7-8449-837dc63a6430)
-  )
   (label "+6.5V" (at 49.53 45.085 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b2c24f7b-4fe0-4c92-96e1-9730fd16f9c7)
