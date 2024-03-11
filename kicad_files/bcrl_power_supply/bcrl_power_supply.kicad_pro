@@ -388,7 +388,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "BCRL_power_supply"
+    ],
     "pinned_symbol_libs": [
       "BCRL_power_supply"
     ]
@@ -459,6 +461,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -479,28 +489,24 @@
       "TxRFswMUXv1 board"
     ],
     [
-      "c039bccf-3be1-43af-8b76-0ca17da1fb41",
-      "PYBE20-Q48-S5_EMC_2"
+      "25622e4f-97f4-4a30-8144-92cb90d9c192",
+      "PDQ10-Q48-S5-D_EMC_2"
     ],
     [
-      "c35d8ada-b51d-4898-80a7-064f1b10b5ec",
-      "PYBE20-Q48-S5_EMC_3"
+      "5bf4f7c6-6b8e-4e27-a5b8-acab1bc701e0",
+      "PDQ10-Q48-S5-D_EMC_3"
     ],
     [
       "6ef64b97-f9dc-450f-b711-7d52ab21fa20",
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
-      "6ddb7e67-8545-46a3-9e44-5c96c89d3435",
-      "PYBE20-Q48-S5_EMC_1"
-    ],
-    [
       "b51a450f-a417-4376-bdb4-fbea692f0aa4",
       "EHHD010A0B41-HZ_EMC"
     ],
     [
-      "e906dc70-4b76-4ecb-a5b5-dda2fead03e3",
-      "PYBE20-Q48-S5_EMC_4"
+      "6c48d2f9-fcf2-4a98-9da2-0b951bcfff1b",
+      "PDQ10-Q48-S5-D_EMC_4"
     ],
     [
       "e938eaba-eb56-49ed-80f3-a12ee00142e6",
@@ -519,48 +525,32 @@
       "PQC50-48-S5-O_EMC_trimmed_4"
     ],
     [
-      "4911ebcc-a5d3-4900-ba57-68f56aa687e0",
-      "PYBE20-Q48-S5_EMC_8"
-    ],
-    [
       "86d69f20-72a8-480c-899a-1cc522974f16",
       "RxRFswMUXv1 board"
     ],
     [
-      "7d2dc667-1ee8-49f4-94a0-4cc7a9da40d3",
-      "PQC50-48-S5-O_EMC_trimmed_5"
+      "74a3158c-0b47-46ec-a68c-98786ff4f376",
+      "PDQ10-Q48-S5-D_EMC_8"
     ],
     [
-      "a6277bc4-fff4-4ca3-adcf-70cedc5a7e0a",
-      "PYBE20-Q48-S5_EMC_5"
-    ],
-    [
-      "304888ea-efce-4e81-86e4-683c64fddcb4",
-      "PDQ10-Q48-S3-D_EMC_2"
-    ],
-    [
-      "90e5c1ce-6820-4716-bf61-76383e7a793a",
-      "PYBE20-Q48-S5_EMC_7"
+      "ba65eece-4ff1-457a-9584-a4cc13589ad3",
+      "PDQ10-Q48-S5-D_EMC_7"
     ],
     [
       "8cfea22d-80b8-49d7-b970-46c0a7f512d1",
       "EHHD010A0B41-HZ_EMC1"
     ],
     [
-      "661ac6a4-a84a-4e5a-ba91-a43ae8e44d33",
-      "PQC50-48-S5-O_EMC_trimmed_7"
+      "ba65eece-4ff1-457a-9584-a4cc13589ad3",
+      "PDQ10-Q48-S5-D_EMC_7"
     ],
     [
-      "0935c627-167c-4b17-ae18-4672687b1add",
-      "PQC50-48-S5-O_EMC_trimmed_6"
+      "74a3158c-0b47-46ec-a68c-98786ff4f376",
+      "PDQ10-Q48-S5-D_EMC_8"
     ],
     [
-      "a3363cdd-d973-4f0f-9f0e-ba3fbdc51167",
-      "PQC50-48-S5-O_EMC_trimmed_8"
-    ],
-    [
-      "9d863abb-9449-4a39-9e8f-306ac5ad4802",
-      "PYBE20-Q48-S5_EMC_6"
+      "db2d733d-e4fb-4067-a57a-a581b8b552cf",
+      "PDQ10-Q48-S5-D_EMC_10"
     ],
     [
       "db2d5c79-5416-487c-8b70-2a6b885368da",
@@ -579,10 +569,6 @@
       "RxBFN-16C"
     ],
     [
-      "b08c53be-3c36-4aa7-b4db-fe44d17a238c",
-      "Tx RPi4 HAT board1"
-    ],
-    [
       "f3b75377-9537-4793-adbe-0e32b94ca2d1",
       "PQC50-48-S5-O_EMC_trimmed_10"
     ],
@@ -597,10 +583,38 @@
     [
       "f3b75377-9537-4793-adbe-0e32b94ca2d1",
       "PQC50-48-S5-O_EMC_trimmed_10"
+    ],
+    [
+      "8eff9f86-f063-4b6a-8ff6-88571e93c688",
+      "PQC50-48-S5-O_EMC_trimmed_13"
+    ],
+    [
+      "ef4fd39b-06c8-45cb-9701-0a959f8e816a",
+      "PQC50-48-S5-O_EMC_trimmed_12"
+    ],
+    [
+      "72505855-de09-442e-bc3d-32e7c06400e6",
+      "PDQ10-Q48-S5-D_EMC_12"
+    ],
+    [
+      "23cd3b36-4f73-44f0-b89b-c9f1e2a0ac78",
+      "PQC50-48-S5-O_EMC_trimmed_14"
+    ],
+    [
+      "53e4312f-ba28-4f96-87e8-7eb8747ac94a",
+      "PQC50-48-S5-O_EMC_trimmed_11"
+    ],
+    [
+      "83bcfa3c-b1f8-4abb-9a01-f1d1e6b79aa2",
+      "PDQ10-Q48-S5-D_EMC_9"
     ],
     [
       "7ab5448f-bd34-4432-b359-f13f98fccb68",
       "Rx_AGC"
+    ],
+    [
+      "4dc04c30-16be-4dfa-98e3-2d623840e8c8",
+      "PDQ10-Q48-S5-D_EMC_1"
     ],
     [
       "3eea0769-b0fa-4084-b012-c895759d5215",
@@ -619,12 +633,28 @@
       "PQC50-48-S5-O_EMC_trimmed_9"
     ],
     [
+      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
+      "PDQE15-Q48-D24-D_EMC_1"
+    ],
+    [
       "acd3b3ab-976d-4699-bf54-77b01a76c029",
       "PQC50-48-S5-O_EMC_trimmed_9"
     ],
     [
+      "40a8c549-aacb-49fc-8ce8-c7458ac7a4b9",
+      "PDQ10-Q48-S5-D_EMC_11"
+    ],
+    [
       "a85e3a44-afc6-43fc-a4d8-d3c8f12cb5cc",
-      "Tx RPi4 HAT board"
+      "Tx_RPi4_HAT_board"
+    ],
+    [
+      "b08c53be-3c36-4aa7-b4db-fe44d17a238c",
+      "Rx_RPi4_HAT_board"
+    ],
+    [
+      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
+      "PDQE15-Q48-D24-D_EMC_1"
     ]
   ],
   "text_variables": {}

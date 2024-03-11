@@ -139,6 +139,9 @@
     )
   )
 
+  (junction (at 37.465 45.085) (diameter 0) (color 0 0 0 0)
+    (uuid e8eed39e-4b46-441b-951e-573211c2be4d)
+  )
 
   (wire (pts (xy 49.53 45.085) (xy 37.465 45.085))
     (stroke (width 0) (type default))
@@ -148,30 +151,30 @@
     (stroke (width 0) (type default))
     (uuid 602663cc-93b5-4a55-9fd9-6ae1561d2dd2)
   )
-  (wire (pts (xy 37.465 47.625) (xy 50.165 47.625))
-    (stroke (width 0) (type default))
-    (uuid 637e196a-91ff-45cf-bf7e-e7f7b2d59d80)
-  )
   (wire (pts (xy 39.37 42.545) (xy 37.465 42.545))
     (stroke (width 0) (type default))
     (uuid 734b4de2-c204-4f5a-b745-e87622662ad0)
   )
+  (wire (pts (xy 37.465 45.085) (xy 37.465 47.625))
+    (stroke (width 0) (type default))
+    (uuid 8f21a6f6-bcaa-4bde-bd9f-1e5db078ee6f)
+  )
 
-  (label "+6.5V" (at 49.53 45.085 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b2c24f7b-4fe0-4c92-96e1-9730fd16f9c7)
+  (hierarchical_label "+6.5V" (shape input) (at 49.53 45.085 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 9e2c22df-f116-4ff3-8cb8-71f0b03e381f)
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 32.385 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a02d770a-5609-4282-aa64-6d5d5e9b800c)
-    (property "Reference" "J75" (at 33.02 37.465 0)
+    (property "Reference" "J63" (at 33.02 37.465 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04_Pin" (at 33.02 40.005 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 32.385 45.085 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 32.385 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 32.385 45.085 0)
@@ -184,10 +187,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/7ab5448f-bd34-4432-b359-f13f98fccb68"
-          (reference "J75") (unit 1)
+          (reference "J63") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
-          (reference "J76") (unit 1)
+          (reference "J64") (unit 1)
         )
       )
     )
@@ -196,7 +199,7 @@
   (symbol (lib_id "power:GND") (at 39.37 50.165 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid def996d0-806b-4108-a483-bad96844f716)
-    (property "Reference" "#PWR0254" (at 45.72 50.165 0)
+    (property "Reference" "#PWR0220" (at 45.72 50.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 50.165 90)
@@ -212,10 +215,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/7ab5448f-bd34-4432-b359-f13f98fccb68"
-          (reference "#PWR0254") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
-          (reference "#PWR0256") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -224,7 +227,7 @@
   (symbol (lib_id "power:GND") (at 39.37 42.545 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4574f0c-7f76-4136-94f4-db36947f0aec)
-    (property "Reference" "#PWR0253" (at 45.72 42.545 0)
+    (property "Reference" "#PWR0219" (at 45.72 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 42.545 90)
@@ -240,10 +243,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/7ab5448f-bd34-4432-b359-f13f98fccb68"
-          (reference "#PWR0253") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )

@@ -243,7 +243,7 @@
   (symbol (lib_id "BCRL_power_supply:PDQ10-Q48-S3-D") (at 125.73 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2024f6ad-bd12-48b9-a461-2d8816f812b0)
-    (property "Reference" "U2" (at 125.73 73.66 0)
+    (property "Reference" "U3" (at 125.73 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PDQ10-Q48-S3-D" (at 125.73 76.2 0)
@@ -272,11 +272,8 @@
     (pin "5" (uuid 3ac13e6e-a5b1-43d9-87f2-8668d4469236))
     (instances
       (project "bcrl_power_supply"
-        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
-          (reference "U2") (unit 1)
-        )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -285,7 +282,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 81.28 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917fc629-7659-4319-8826-f22c23395939)
-    (property "Reference" "C80" (at 85.09 90.551 0)
+    (property "Reference" "C6" (at 85.09 90.551 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uf/100uf" (at 85.09 93.091 0)
@@ -301,11 +298,8 @@
     (pin "2" (uuid c575ceb8-f1fd-4c6d-b725-c9594f933496))
     (instances
       (project "bcrl_power_supply"
-        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
-          (reference "C80") (unit 1)
-        )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-          (reference "C80") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -314,7 +308,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 60.96 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b49edcf1-bdc1-4acf-8a82-ad51739121db)
-    (property "Reference" "C79" (at 64.77 90.551 0)
+    (property "Reference" "C5" (at 64.77 90.551 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uf/100v" (at 64.77 92.71 0)
@@ -330,11 +324,8 @@
     (pin "2" (uuid 4574a357-4f89-47cd-9334-39238746663a))
     (instances
       (project "bcrl_power_supply"
-        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
-          (reference "C79") (unit 1)
-        )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-          (reference "C79") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -343,7 +334,7 @@
   (symbol (lib_id "power:GND") (at 143.51 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5695e5-0490-4930-bf8c-6d71491a6dad)
-    (property "Reference" "#PWR0208" (at 143.51 92.71 0)
+    (property "Reference" "#PWR064" (at 143.51 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 91.44 0)
@@ -358,11 +349,8 @@
     (pin "1" (uuid 50b18e3a-fc40-4be4-9d9d-1b10dad7f073))
     (instances
       (project "bcrl_power_supply"
-        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
-          (reference "#PWR0208") (unit 1)
-        )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -371,7 +359,7 @@
   (symbol (lib_id "power:GND") (at 49.53 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc93b883-7b31-4db9-abc0-928fe306772a)
-    (property "Reference" "#PWR0207" (at 49.53 107.95 0)
+    (property "Reference" "#PWR063" (at 49.53 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 106.68 0)
@@ -386,11 +374,8 @@
     (pin "1" (uuid bb5547df-905a-4e36-aec0-160439c3bce7))
     (instances
       (project "bcrl_power_supply"
-        (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/304888ea-efce-4e81-86e4-683c64fddcb4"
-          (reference "#PWR0207") (unit 1)
-        )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )

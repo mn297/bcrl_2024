@@ -183,7 +183,7 @@
           (reference "#PWR066") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -211,7 +211,7 @@
           (reference "#PWR065") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -220,7 +220,7 @@
   (symbol (lib_id "BCRL_power_supply:EHHD010A0B41-HZ") (at 132.08 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 915ed905-5d22-4c3f-bf81-0674fbd8bf4a)
-    (property "Reference" "PS4" (at 132.08 83.82 0)
+    (property "Reference" "PS1" (at 132.08 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EHHD010A0B41-HZ" (at 132.08 86.36 0)
@@ -276,10 +276,10 @@
     (instances
       (project "bcrl_power_supply"
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/b51a450f-a417-4376-bdb4-fbea692f0aa4"
-          (reference "PS4") (unit 1)
+          (reference "PS1") (unit 1)
         )
         (path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/8cfea22d-80b8-49d7-b970-46c0a7f512d1"
-          (reference "PS14") (unit 1)
+          (reference "PS6") (unit 1)
         )
       )
     )
