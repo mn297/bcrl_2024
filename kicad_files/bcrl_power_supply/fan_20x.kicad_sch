@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b7dedaf6-82bf-4aed-931d-d2df89025f89")
+	(uuid "a1c294ff-e92b-47f2-ba44-41ed6ac810dc")
 	(paper "A4")
 	(lib_symbols
 		(symbol "2024-02-14_22-22-09:OSTVN02A150"
@@ -400,145 +400,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -638,46 +499,88 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 130.175) (xy 71.12 130.175)
+			(xy 55.88 121.92) (xy 50.8 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45aa4e88-931a-4de1-a2af-61e6b9f22452")
+		(uuid "304d01ff-26da-4653-a6cf-3eb03068139f")
 	)
 	(wire
 		(pts
-			(xy 80.01 99.06) (xy 85.09 99.06)
+			(xy 60.96 100.33) (xy 76.2 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68de0c96-7919-4527-bc7b-b9375299a548")
+		(uuid "7314dee6-e591-4184-b4c1-beae2ec325d8")
 	)
 	(wire
 		(pts
-			(xy 55.88 99.06) (xy 60.96 99.06)
+			(xy 102.87 100.33) (xy 110.49 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85c01e9e-ba27-4c98-826e-e74ea0bcd93e")
+		(uuid "7a7d219f-9abf-4939-a40b-812b43f39602")
 	)
 	(wire
 		(pts
-			(xy 68.58 116.84) (xy 63.5 116.84)
+			(xy 55.88 168.91) (xy 50.8 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fbcc263-920f-42c5-9460-d20c3e4798ba")
+		(uuid "80dcd2cd-be61-41fb-8c23-a9f46f07137b")
 	)
-	(label "+5V"
-		(at 85.09 99.06 180)
+	(wire
+		(pts
+			(xy 55.88 153.67) (xy 50.8 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857fb889-84aa-48b6-85f9-d9406f27fc61")
+	)
+	(wire
+		(pts
+			(xy 55.88 137.16) (xy 50.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb75e7a0-63f9-4581-97cb-5a54332c5ee1")
+	)
+	(label "V_FAN"
+		(at 50.8 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09471887-afeb-4a63-9c5f-69a14e4be7f6")
+	)
+	(label "V_FAN"
+		(at 50.8 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "280a81ce-232a-4eef-a06b-54b9f9d85099")
+	)
+	(label "V_FAN"
+		(at 110.49 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -685,10 +588,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "062dbeb4-87d8-4b27-8517-0a5a2b3e68e4")
+		(uuid "357f58c8-339e-44eb-91d6-4b1f271f97b2")
 	)
-	(label "CTL"
-		(at 55.88 99.06 0)
+	(label "FAN_CTL"
+		(at 60.96 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -696,10 +599,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "81447500-3da8-4e8d-a2c1-d16554affa05")
+		(uuid "78ece8a8-6000-4f7c-81f7-4c29343df45a")
 	)
-	(label "CTL"
-		(at 54.61 130.175 0)
+	(label "V_FAN"
+		(at 50.8 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -707,10 +610,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e8f4f873-b534-426c-8c85-3e6481c114b2")
+		(uuid "9f563a31-b1f8-4c35-8872-41613515b60c")
 	)
-	(label "+5V"
-		(at 63.5 116.84 0)
+	(label "V_FAN"
+		(at 50.8 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -718,20 +621,20 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f9d70ca4-3375-49cb-9ce6-21343c058047")
+		(uuid "ee7f6de0-6f9a-442d-bed2-1a71257c54b4")
 	)
 	(symbol
 		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 68.58 116.84 0)
+		(at 55.88 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1688b8fc-c3eb-49b4-885d-2f374ba848f3")
-		(property "Reference" "J23"
-			(at 82.55 116.84 0)
+		(uuid "0fbb8704-75a2-40ff-bb9b-1ef565194800")
+		(property "Reference" "J72"
+			(at 69.85 137.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -740,7 +643,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 82.55 119.38 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -749,7 +652,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 58.42 111.76 0)
+			(at 45.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,7 +662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 114.3 0)
+			(at 49.53 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 116.84 0)
+			(at 55.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,19 +681,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0afe0ade-fd0b-48b1-bb22-ce3280be11ed")
+			(uuid "f3062b5b-1f08-4c04-b961-f68b2b944aa7")
 		)
 		(pin "1"
-			(uuid "265793fd-3003-412f-b999-1d4d5c3feef2")
+			(uuid "0ca729b7-486b-4293-a315-9200dec71fc8")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "J23")
-					(unit 1)
-				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "J32")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "J72")
 					(unit 1)
 				)
 			)
@@ -798,16 +697,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 119.38 270)
+		(at 55.88 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d02207c-c2dd-442d-98a1-c25d2ec0002e")
-		(property "Reference" "#PWR093"
-			(at 62.23 119.38 0)
+		(uuid "1e0438ba-db6c-486d-9143-c3d52609a24b")
+		(property "Reference" "#PWR0257"
+			(at 49.53 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 119.38 90)
+			(at 52.07 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 119.38 0)
+			(at 55.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 119.38 0)
+			(at 55.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,7 +742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 119.38 0)
+			(at 55.88 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,51 +751,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "91be1945-c8c7-4171-83b4-40eaa10217bf")
+			(uuid "301f0fae-b555-419d-be64-ad9ba9c99da3")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "#PWR093")
-					(unit 1)
-				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "#PWR0130")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 76.2 130.175 0)
+		(lib_id "power:GND")
+		(at 55.88 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "981a7baf-f0a5-4ab0-991b-85914a99921b")
-		(property "Reference" "J69"
-			(at 78.74 130.175 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 78.74 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 76.2 130.175 0)
+		(uuid "2e4249b6-6f62-4268-938c-31c8d92fd76e")
+		(property "Reference" "#PWR0256"
+			(at 49.53 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,8 +781,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 76.2 130.175 0)
+		(property "Value" "GND"
+			(at 52.07 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 130.175 0)
+			(at 55.88 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,19 +818,84 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d36aa23-9a7d-4cf9-bdb3-832c87fa5865")
+			(uuid "e7249d8a-d391-42f1-9dbe-2a1b5c2154d9")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0256")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 55.88 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "490767ab-f90d-4102-a243-a179b2fb97da")
+		(property "Reference" "J74"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTVN02A150"
+			(at 69.85 171.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 45.72 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "850b8999-12ea-49c2-a8bd-cbd8e420bdf0")
+			(uuid "7a3cc6f4-489e-439a-b62a-302b36c1ed12")
+		)
+		(pin "1"
+			(uuid "817a99e8-ecdc-4199-b8a7-9e4f9e7a33f8")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "J69")
-					(unit 1)
-				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "J70")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "J74")
 					(unit 1)
 				)
 			)
@@ -943,16 +903,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 132.715 270)
+		(at 55.88 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc59716e-01f5-43dc-9ca0-b4d914b02f0b")
-		(property "Reference" "#PWR0135"
-			(at 64.77 132.715 0)
+		(uuid "de65945b-4528-4215-abef-3dd029901859")
+		(property "Reference" "#PWR0254"
+			(at 49.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 132.715 90)
+			(at 52.07 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 132.715 0)
+			(at 55.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 132.715 0)
+			(at 55.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 132.715 0)
+			(at 55.88 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,24 +957,231 @@
 			)
 		)
 		(pin "1"
-			(uuid "2d12f9d4-0e4d-45f7-b064-d684d58dc237")
+			(uuid "452e0fe8-5f98-45b4-9ddf-1ee49c089895")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "#PWR0135")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0254")
 					(unit 1)
 				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "#PWR0136")
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 55.88 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df5f2ace-ec3e-441f-a714-be529aa31220")
+		(property "Reference" "J73"
+			(at 69.85 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTVN02A150"
+			(at 69.85 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 45.72 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcb2cac1-18c5-47f9-bdac-1091cf63ee7b")
+		)
+		(pin "1"
+			(uuid "44fad6a4-3899-492c-bb4e-a4d1db4a3c9e")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "J73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2e1487f-686b-4921-9d3e-4a6d4b86ae95")
+		(property "Reference" "#PWR0255"
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db1137e8-f594-4f5a-a3cf-84d3e58f2b48")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0255")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 55.88 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e908307b-6bf6-4286-98cb-1191c37db129")
+		(property "Reference" "J71"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTVN02A150"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 45.72 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab13ad54-9829-4a69-91f8-0e433528e804")
+		)
+		(pin "1"
+			(uuid "5866b7c8-b32e-4758-8c6b-ca74567e7f71")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "J71")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 60.96 95.885)
-		(size 19.05 6.35)
+		(at 76.2 95.25)
+		(size 26.67 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1023,9 +1190,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "13fbb956-887b-499a-a3e4-266e83b0f717")
-		(property "Sheetname" "PDQ10-Q48-S5-D_EMC_13"
-			(at 60.96 95.1734 0)
+		(uuid "46bb1ce7-0e0a-47ff-a99f-4306fd96427b")
+		(property "Sheetname" "PQC50-48-S5-O_EMC_trimmed_15"
+			(at 76.2 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,8 +1200,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PDQ10-Q48-S5-D_EMC.kicad_sch"
-			(at 60.96 102.8196 0)
+		(property "Sheetfile" "PQC50-48-S5-O_EMC_trimmed.kicad_sch"
+			(at 76.2 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,33 +1209,30 @@
 				(justify left top)
 			)
 		)
-		(pin "+5V" output
-			(at 80.01 99.06 0)
+		(pin "+VO" output
+			(at 102.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "16d47be9-16fc-4439-b5e6-2a391d371f15")
+			(uuid "af5f26c7-9083-4b1d-bdb2-462713c7fe59")
 		)
 		(pin "CTRL" input
-			(at 60.96 99.06 180)
+			(at 76.2 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "afd647dd-acca-405f-8aea-258b4a8ab3e4")
+			(uuid "79d537c1-4901-4719-a3e0-6a784b3c8a60")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(page "12")
-				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(page "14")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(page "32")
 				)
 			)
 		)

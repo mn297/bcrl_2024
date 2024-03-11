@@ -456,16 +456,16 @@
 			)
 		)
 		(pin "4"
-			(uuid "816c95dc-12f2-4b4d-bfae-21118b8c9aff")
+			(uuid "05617747-691e-44a2-931b-11667e6cd4a2")
 		)
 		(pin "1"
-			(uuid "711e1a3e-adbf-4607-8deb-0f2a2c56e7ec")
+			(uuid "99a018a9-d9b0-4ebe-a06f-85cbfb244f22")
 		)
 		(pin "2"
-			(uuid "bc4c6f30-2e9d-4e6e-8836-a2fb7a8177d1")
+			(uuid "2084faf1-cafe-4f2b-aa72-4ca7a48f34ae")
 		)
 		(pin "3"
-			(uuid "880577ca-4076-4fd1-9e6d-68e6abe67cc6")
+			(uuid "f41d2481-312c-4fe7-9cfa-38714a3445f9")
 		)
 		(instances
 			(project "bcrl_power_supply"
@@ -473,7 +473,7 @@
 					(reference "J59")
 					(unit 1)
 				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da"
 					(reference "J60")
 					(unit 1)
 				)
@@ -536,7 +536,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "46022118-bd3c-4b62-834d-90d8775869b8")
+			(uuid "a2d2375c-decf-440c-ad65-49abd8b90951")
 		)
 		(instances
 			(project "bcrl_power_supply"
@@ -544,7 +544,7 @@
 					(reference "#PWR0196")
 					(unit 1)
 				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da"
 					(reference "#PWR0200")
 					(unit 1)
 				)
@@ -607,7 +607,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "53e0493f-84a4-4a76-982d-95aaeefb54da")
+			(uuid "efdd5eff-2b71-49f4-9c8e-cbce3a389d42")
 		)
 		(instances
 			(project "bcrl_power_supply"
@@ -615,7 +615,7 @@
 					(reference "#PWR0195")
 					(unit 1)
 				)
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/3eea0769-b0fa-4084-b012-c895759d5215"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da"
 					(reference "#PWR0199")
 					(unit 1)
 				)

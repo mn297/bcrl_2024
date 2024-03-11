@@ -5,437 +5,6 @@
 	(uuid "77f0f57c-9586-4625-9281-fa8cbd8015db")
 	(paper "A2")
 	(lib_symbols
-		(symbol "BCRL_power_supply:5034801600"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "5034801600"
-				(at -5.08 -30.48 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" ""
-				(at 15.24 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.87 mm"
-				(at 2.54 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Molex"
-				(at 1.27 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "5034801600_0_0"
-				(rectangle
-					(start -5.08 -27.94)
-					(end 5.08 22.86)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 20.32 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 5.08)
-					(name "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 5.08)
-					(name "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 5.08)
-					(name "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -12.7 0)
-					(length 5.08)
-					(name "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -15.24 0)
-					(length 5.08)
-					(name "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -17.78 0)
-					(length 5.08)
-					(name "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 17.78 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 15.24 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 12.7 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 7.62 0)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -22.86 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -25.4 0)
-					(length 5.08)
-					(name "SHIELD__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BCRL_power_supply:OSTVN02A150"
 			(pin_names
 				(offset 0.254)
@@ -1391,7 +960,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 166.37) (xy 73.66 166.37)
+			(xy 166.37 59.055) (xy 175.26 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df0daea-5806-4cd2-9df0-8402e8ca2502")
+	)
+	(wire
+		(pts
+			(xy 41.275 156.21) (xy 66.675 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1411,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 168.91) (xy 213.36 168.91)
+			(xy 116.84 167.64) (xy 129.54 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1000,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 166.37) (xy 213.36 166.37)
+			(xy 192.5622 91.44) (xy 201.295 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6211674f-58d2-438b-ba55-d5a92092dd77")
+	)
+	(wire
+		(pts
+			(xy 116.84 165.1) (xy 129.54 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 148.59) (xy 52.705 148.59)
+			(xy 27.305 138.43) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +1030,27 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 148.59) (xy 88.265 148.59)
+			(xy 192.5622 86.995) (xy 192.5622 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9884af29-3af3-4081-892e-48bda1891ef3")
+	)
+	(wire
+		(pts
+			(xy 200.66 60.96) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ffb439-7354-4e8c-a0b7-110de5f635d2")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 81.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 168.91) (xy 73.66 168.91)
+			(xy 61.595 158.75) (xy 66.675 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1481,6 +1090,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 86.995) (xy 192.5622 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6218d88-2db5-4cd1-bf01-bf6bf85b4f48")
+	)
+	(wire
+		(pts
 			(xy 30.48 26.67) (xy 39.37 26.67)
 		)
 		(stroke
@@ -1489,8 +1108,18 @@
 		)
 		(uuid "f9526995-3f42-4b58-a226-47acbf3e6ec8")
 	)
+	(wire
+		(pts
+			(xy 175.26 59.055) (xy 175.26 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa472abc-895c-4f6f-8a75-9860639f0944")
+	)
 	(label "EN_3.3V_FROM_5V"
-		(at 48.26 166.37 0)
+		(at 41.275 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1501,7 +1130,7 @@
 		(uuid "4d3ff978-d7c5-4a58-95c7-4a9a558d0e7d")
 	)
 	(label "EN_3.3V_FROM_5V"
-		(at 34.29 148.59 0)
+		(at 27.305 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1513,7 +1142,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 133.35 0)
+		(at 168.91 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1522,7 +1151,7 @@
 		(fields_autoplaced yes)
 		(uuid "06415276-5792-43d6-895e-d819f2092724")
 		(property "Reference" "H2"
-			(at 137.795 132.08 0)
+			(at 172.085 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1160,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 134.62 0)
+			(at 172.085 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1169,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 133.35 0)
+			(at 168.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 133.35 0)
+			(at 168.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 133.35 0)
+			(at 168.91 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1577,7 +1206,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 161.29 0)
+		(at 168.91 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1586,7 +1215,7 @@
 		(fields_autoplaced yes)
 		(uuid "07116d3e-6bd0-4b76-8cea-ad116501d560")
 		(property "Reference" "H5"
-			(at 137.795 160.02 0)
+			(at 172.085 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1595,7 +1224,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 162.56 0)
+			(at 172.085 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1233,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 161.29 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 161.29 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 161.29 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1270,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 125.73 0)
+		(at 168.91 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1650,7 +1279,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ad8b4f-ef28-45f4-ab41-5ecfa54dec60")
 		(property "Reference" "H1"
-			(at 137.795 124.46 0)
+			(at 172.085 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1288,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 127 0)
+			(at 172.085 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1297,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 125.73 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 125.73 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 125.73 0)
+			(at 168.91 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1473,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 166.37 270)
+		(at 116.84 165.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1853,7 +1482,7 @@
 		(fields_autoplaced yes)
 		(uuid "45bffd67-41f2-426b-9e8b-f7da62e72ef9")
 		(property "Reference" "#PWR019"
-			(at 194.31 166.37 0)
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,7 +1491,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 166.37 90)
+			(at 118.11 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1500,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 166.37 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 166.37 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 166.37 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,165 +1533,6 @@
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BCRL_power_supply:5034801600")
-		(at 223.52 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52bf1875-61fb-4f1f-8ef2-1dbac0d73538")
-		(property "Reference" "J12"
-			(at 229.87 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5034801600"
-			(at 229.87 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BCRL_power_supply:MOLEX_5034801600"
-			(at 223.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 238.76 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 223.52 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.87 mm"
-			(at 226.06 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Molex"
-			(at 224.79 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "86ff2766-a111-4655-8df7-4a533eac9523")
-		)
-		(pin "15"
-			(uuid "b7abd978-4c35-4e53-aa86-a2731dc530aa")
-		)
-		(pin "S1"
-			(uuid "6d635ea4-4c09-46af-a284-0dde479ad022")
-		)
-		(pin "8"
-			(uuid "6c28f953-d31c-4693-87f4-aabe4254806e")
-		)
-		(pin "11"
-			(uuid "64706cbf-07d7-48a8-bfbd-ad3cab7ed653")
-		)
-		(pin "12"
-			(uuid "1d02fcef-3c11-4c30-850e-482e9e884d0f")
-		)
-		(pin "10"
-			(uuid "0200bafb-9d67-4c39-852c-8de74315922e")
-		)
-		(pin "14"
-			(uuid "20a97680-1a2d-427a-8f4f-7d5729990275")
-		)
-		(pin "13"
-			(uuid "0d1489a3-24fd-4d32-9ed2-c99987fd7449")
-		)
-		(pin "6"
-			(uuid "3ef492d7-0828-473c-a876-ff733b474225")
-		)
-		(pin "1"
-			(uuid "48ab7dee-ae53-41f6-91b0-cc8350aa2552")
-		)
-		(pin "4"
-			(uuid "14b97b58-9b9e-4a62-a828-ca82863b3351")
-		)
-		(pin "16"
-			(uuid "e0731be8-9129-4599-8f47-93f6989c0ec1")
-		)
-		(pin "2"
-			(uuid "4ee5315a-e0b4-41ae-b059-8614171a84f7")
-		)
-		(pin "5"
-			(uuid "509e0433-d48c-4770-b06c-08a6ccbff77e")
-		)
-		(pin "S2"
-			(uuid "e8309771-64ca-4f0e-be29-48d31f4ed1fc")
-		)
-		(pin "3"
-			(uuid "cd0201d7-5bf6-4142-8e83-c5bd1d168b5a")
-		)
-		(pin "9"
-			(uuid "924e7714-9523-4035-8518-b86a584cbd15")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2204,7 +1674,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 142.24 0)
+		(at 168.91 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2213,7 +1683,7 @@
 		(fields_autoplaced yes)
 		(uuid "877fa865-299f-4ec3-98ce-9d8f01ff21b9")
 		(property "Reference" "H3"
-			(at 137.795 140.97 0)
+			(at 172.085 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +1692,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 143.51 0)
+			(at 172.085 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +1701,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 142.24 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +1710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 142.24 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +1719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 142.24 0)
+			(at 168.91 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +1805,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 78.74 166.37 0)
+		(at 71.755 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2344,7 +1814,7 @@
 		(fields_autoplaced yes)
 		(uuid "898ce167-703d-47fa-94f7-f3dba8eeb187")
 		(property "Reference" "J3"
-			(at 81.28 166.37 0)
+			(at 74.295 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +1823,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 81.28 168.91 0)
+			(at 74.295 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 78.74 166.37 0)
+			(at 71.755 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +1841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 166.37 0)
+			(at 71.755 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +1850,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 166.37 0)
+			(at 71.755 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +1947,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 168.91 270)
+		(at 61.595 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2486,7 +1956,7 @@
 		(fields_autoplaced yes)
 		(uuid "afffe904-5533-47cf-98f4-df528e47aff7")
 		(property "Reference" "#PWR05"
-			(at 62.23 168.91 0)
+			(at 55.245 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +1965,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 168.91 90)
+			(at 57.785 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 168.91 0)
+			(at 61.595 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +1983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 168.91 0)
+			(at 61.595 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2522,7 +1992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 168.91 0)
+			(at 61.595 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2014,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 151.13 0)
+		(at 168.91 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2553,7 +2023,7 @@
 		(fields_autoplaced yes)
 		(uuid "b33b2671-c934-470a-8acf-23d526d46b65")
 		(property "Reference" "H4"
-			(at 137.795 149.86 0)
+			(at 172.085 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2032,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 152.4 0)
+			(at 172.085 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2041,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 151.13 0)
+			(at 168.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 151.13 0)
+			(at 168.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2059,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 151.13 0)
+			(at 168.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2608,7 +2078,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 168.91 270)
+		(at 116.84 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2617,7 +2087,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd891e44-381d-44a4-84fa-57661ca127a4")
 		(property "Reference" "#PWR048"
-			(at 194.31 168.91 0)
+			(at 110.49 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 168.91 90)
+			(at 118.11 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2105,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 168.91 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 168.91 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 168.91 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2145,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 88.265 148.59 0)
+		(at 81.28 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2684,7 +2154,7 @@
 		(fields_autoplaced yes)
 		(uuid "db4f8d13-19f1-4d24-8402-13891d27fd8e")
 		(property "Reference" "#PWR06"
-			(at 88.265 152.4 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2693,7 +2163,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 88.265 143.51 0)
+			(at 81.28 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.265 148.59 0)
+			(at 81.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2710,7 +2180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.265 148.59 0)
+			(at 81.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.265 148.59 0)
+			(at 81.28 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2211,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 134.62 168.91 0)
+		(at 168.91 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2750,7 +2220,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd2ea1dc-deeb-405a-a726-4a93eb54c044")
 		(property "Reference" "H6"
-			(at 137.795 167.64 0)
+			(at 172.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2229,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 137.795 170.18 0)
+			(at 172.085 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 134.62 168.91 0)
+			(at 168.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 168.91 0)
+			(at 168.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,7 +2256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 168.91 0)
+			(at 168.91 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2804,7 +2274,123 @@
 		)
 	)
 	(sheet
-		(at 307.34 53.34)
+		(at 138.43 54.61)
+		(size 27.94 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02f67898-9849-4534-b5ea-a13a752d897f")
+		(property "Sheetname" "TxBFN-16F"
+			(at 138.43 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BFN_board.kicad_sch"
+			(at 138.43 72.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+6.5V_CTL_1" input
+			(at 138.43 59.055 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3d29699-a3e9-41ca-85de-37d6e6d4c226")
+		)
+		(pin "+6.5V_CTL_2" input
+			(at 138.43 67.945 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c95b5929-c393-4205-8804-ae026b3df22a")
+		)
+		(pin "+6.5V_1" input
+			(at 166.37 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f856211-4481-4e71-a0e5-fcdebc0e2dd8")
+		)
+		(pin "+6.5V_2" input
+			(at 166.37 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b6de3c75-e1d9-44b7-a07a-f0c60e96e30b")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(page "28")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 133.35)
+		(size 21.59 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33e29609-c49f-40d6-8d19-845b9c0d1d83")
+		(property "Sheetname" "fan_20x"
+			(at 212.09 132.6384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fan_20x.kicad_sch"
+			(at 212.09 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(page "47")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 55.88)
 		(size 22.86 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -2816,7 +2402,7 @@
 		)
 		(uuid "396cd466-5b94-4a70-b29a-66669aea6a97")
 		(property "Sheetname" "Tx_Eth_Switch"
-			(at 307.34 52.6284 0)
+			(at 288.29 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,7 +2411,7 @@
 			)
 		)
 		(property "Sheetfile" "Eth_Switch.kicad_sch"
-			(at 307.34 59.0046 0)
+			(at 288.29 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2428,7 @@
 		)
 	)
 	(sheet
-		(at 195.58 53.34)
+		(at 200.66 53.34)
 		(size 29.845 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -2852,9 +2438,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3eea0769-b0fa-4084-b012-c895759d5215")
+		(uuid "43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da")
 		(property "Sheetname" "Tx_AGC"
-			(at 195.58 52.6284 0)
+			(at 200.66 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2863,7 +2449,7 @@
 			)
 		)
 		(property "Sheetfile" "AGC_board.kicad_sch"
-			(at 195.58 69.1646 0)
+			(at 200.66 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,16 +2457,26 @@
 				(justify left top)
 			)
 		)
+		(pin "+6.5V" input
+			(at 200.66 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdfa90f0-ed9b-483f-ac72-c9d19bcb2c8e")
+		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "40")
+					(page "31")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 307.34 80.01)
+		(at 288.29 82.55)
 		(size 22.86 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -2892,7 +2488,7 @@
 		)
 		(uuid "66481d9d-6957-47e9-a2b4-eda0119b346e")
 		(property "Sheetname" "Rx_Eth_Switch"
-			(at 307.34 79.2984 0)
+			(at 288.29 81.8384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2497,7 @@
 			)
 		)
 		(property "Sheetfile" "Eth_Switch.kicad_sch"
-			(at 307.34 85.6746 0)
+			(at 288.29 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2918,7 +2514,7 @@
 		)
 	)
 	(sheet
-		(at 52.705 143.51)
+		(at 45.72 133.35)
 		(size 27.94 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -2930,7 +2526,7 @@
 		)
 		(uuid "6ef64b97-f9dc-450f-b711-7d52ab21fa20")
 		(property "Sheetname" "PDQ10-Q48-S3-D_EMC_1"
-			(at 52.705 142.7984 0)
+			(at 45.72 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2535,7 @@
 			)
 		)
 		(property "Sheetfile" "PDQ10-Q48-S3-D_EMC.kicad_sch"
-			(at 52.705 154.2546 0)
+			(at 45.72 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2544,7 @@
 			)
 		)
 		(pin "REMOTE" input
-			(at 52.705 148.59 180)
+			(at 45.72 138.43 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2554,7 @@
 			(uuid "d6043fa5-b922-46cd-9e7c-0b7a875047d1")
 		)
 		(pin "+3.3V" output
-			(at 80.645 148.59 0)
+			(at 73.66 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2572,7 @@
 		)
 	)
 	(sheet
-		(at 196.215 78.74)
+		(at 201.295 83.82)
 		(size 29.845 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -2988,7 +2584,7 @@
 		)
 		(uuid "7ab5448f-bd34-4432-b359-f13f98fccb68")
 		(property "Sheetname" "Rx_AGC"
-			(at 196.215 78.0284 0)
+			(at 201.295 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,13 +2593,23 @@
 			)
 		)
 		(property "Sheetfile" "AGC_board.kicad_sch"
-			(at 196.215 94.5646 0)
+			(at 201.295 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "+6.5V" input
+			(at 201.295 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "221b828b-c783-4418-84c9-a4d0c153799a")
 		)
 		(instances
 			(project "bcrl_power_supply"
@@ -3052,6 +2658,84 @@
 		)
 	)
 	(sheet
+		(at 105.41 82.55)
+		(size 27.94 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "905e1951-db20-44ae-8726-232e4adb05c8")
+		(property "Sheetname" "RxBFN-16C"
+			(at 105.41 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BFN_board.kicad_sch"
+			(at 105.41 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+6.5V_CTL_1" input
+			(at 105.41 86.995 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dbdd2d91-5df2-45b3-8d17-e9977fe771a4")
+		)
+		(pin "+6.5V_CTL_2" input
+			(at 105.41 95.885 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "633a83f7-1360-40bc-9171-7b158615863a")
+		)
+		(pin "+6.5V_1" input
+			(at 133.35 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3691f756-2339-4d6a-b6ea-a4958c0014f4")
+		)
+		(pin "+6.5V_2" input
+			(at 133.35 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb6628d7-566d-421d-99cd-d60bd9add083")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 39.37 49.53)
 		(size 41.91 20.32)
 		(fields_autoplaced yes)
@@ -3085,6 +2769,84 @@
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 82.55)
+		(size 27.94 17.145)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a7671e1e-4655-4056-8fad-170944a9dd10")
+		(property "Sheetname" "RxBFN-16F"
+			(at 138.43 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BFN_board.kicad_sch"
+			(at 138.43 100.2796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+6.5V_CTL_1" input
+			(at 138.43 86.995 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ab341246-8f26-4ca3-856c-2a754719584b")
+		)
+		(pin "+6.5V_CTL_2" input
+			(at 138.43 95.885 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3d5b995-51e4-4b7a-a194-4a15b03cc8bf")
+		)
+		(pin "+6.5V_1" input
+			(at 166.37 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "273c2de1-9019-4815-af69-65ccca24bb0c")
+		)
+		(pin "+6.5V_2" input
+			(at 166.37 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b44f0e47-0792-46c8-b957-4185a8d2b0b6")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(page "23")
 				)
 			)
 		)
@@ -3128,44 +2890,6 @@
 		)
 	)
 	(sheet
-		(at 140.335 78.105)
-		(size 27.94 17.145)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aa5f9bb2-90fc-469b-8f67-1b93629b19c8")
-		(property "Sheetname" "RxBFN-16C"
-			(at 140.335 77.3934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BFN_board.kicad_sch"
-			(at 140.335 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "26")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 243.84 76.835)
 		(size 34.29 18.415)
 		(fields_autoplaced yes)
@@ -3204,7 +2928,7 @@
 		)
 	)
 	(sheet
-		(at 140.335 52.705)
+		(at 105.41 54.61)
 		(size 27.94 17.145)
 		(fields_autoplaced yes)
 		(stroke
@@ -3214,85 +2938,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "c57c4e62-8131-4f10-bf68-a58600ae0537")
-		(property "Sheetname" "RxBFN-16F"
-			(at 140.335 51.9934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BFN_board.kicad_sch"
-			(at 140.335 70.4346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "25")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 100.965 52.705)
-		(size 27.94 17.145)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c9e21106-2535-4146-80da-dfe7b384e4e1")
-		(property "Sheetname" "TxBFN-16F"
-			(at 100.965 51.9934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "BFN_board.kicad_sch"
-			(at 100.965 70.4346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "24")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 100.965 78.105)
-		(size 27.94 17.145)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "db2d5c79-5416-487c-8b70-2a6b885368da")
+		(uuid "bd5f384d-3d4b-4f0a-b9a1-dce2d9828457")
 		(property "Sheetname" "TxBFN-16C"
-			(at 100.965 77.3934 0)
+			(at 105.41 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +2949,7 @@
 			)
 		)
 		(property "Sheetfile" "BFN_board.kicad_sch"
-			(at 100.965 95.8346 0)
+			(at 105.41 72.3396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,10 +2957,50 @@
 				(justify left top)
 			)
 		)
+		(pin "+6.5V_CTL_1" input
+			(at 105.41 59.055 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71b4cfd1-a73a-49a7-b37b-bae9ccdce17b")
+		)
+		(pin "+6.5V_CTL_2" input
+			(at 105.41 67.945 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1b58693-f3df-427a-821e-7735f7401d34")
+		)
+		(pin "+6.5V_1" input
+			(at 133.35 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9aece530-1bef-4213-8f70-98ef4b03f677")
+		)
+		(pin "+6.5V_2" input
+			(at 133.35 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ee8c62e7-d451-49b3-a279-f1801f535f54")
+		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "23")
+					(page "26")
 				)
 			)
 		)

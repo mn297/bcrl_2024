@@ -531,11 +531,53 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -608,6 +650,10 @@
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
+      "905e1951-db20-44ae-8726-232e4adb05c8",
+      "RxBFN-16C"
+    ],
+    [
       "6c48d2f9-fcf2-4a98-9da2-0b951bcfff1b",
       "PDQ10-Q48-S5-D_EMC_4"
     ],
@@ -648,8 +694,20 @@
       "PDQ10-Q48-S5-D_EMC_7"
     ],
     [
+      "acd3b3ab-976d-4699-bf54-77b01a76c029",
+      "PQC50-48-S5-O_EMC_trimmed_9"
+    ],
+    [
+      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
+      "PQC50-48-S5-O_EMC_trimmed_10"
+    ],
+    [
       "ba65eece-4ff1-457a-9584-a4cc13589ad3",
       "PDQ10-Q48-S5-D_EMC_7"
+    ],
+    [
+      "acd3b3ab-976d-4699-bf54-77b01a76c029",
+      "PQC50-48-S5-O_EMC_trimmed_9"
     ],
     [
       "74a3158c-0b47-46ec-a68c-98786ff4f376",
@@ -660,36 +718,44 @@
       "PDQ10-Q48-S5-D_EMC_10"
     ],
     [
-      "db2d5c79-5416-487c-8b70-2a6b885368da",
-      "TxBFN-16C"
-    ],
-    [
-      "c9e21106-2535-4146-80da-dfe7b384e4e1",
-      "TxBFN-16F"
-    ],
-    [
-      "c57c4e62-8131-4f10-bf68-a58600ae0537",
+      "a7671e1e-4655-4056-8fad-170944a9dd10",
       "RxBFN-16F"
     ],
     [
-      "aa5f9bb2-90fc-469b-8f67-1b93629b19c8",
-      "RxBFN-16C"
+      "acd3b3ab-976d-4699-bf54-77b01a76c029",
+      "PQC50-48-S5-O_EMC_trimmed_9"
     ],
     [
       "f3b75377-9537-4793-adbe-0e32b94ca2d1",
       "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
-      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
-      "PQC50-48-S5-O_EMC_trimmed_10"
+      "bd5f384d-3d4b-4f0a-b9a1-dce2d9828457",
+      "TxBFN-16C"
     ],
     [
       "f3b75377-9537-4793-adbe-0e32b94ca2d1",
       "PQC50-48-S5-O_EMC_trimmed_10"
     ],
     [
+      "02f67898-9849-4534-b5ea-a13a752d897f",
+      "TxBFN-16F"
+    ],
+    [
+      "acd3b3ab-976d-4699-bf54-77b01a76c029",
+      "PQC50-48-S5-O_EMC_trimmed_9"
+    ],
+    [
       "f3b75377-9537-4793-adbe-0e32b94ca2d1",
       "PQC50-48-S5-O_EMC_trimmed_10"
+    ],
+    [
+      "43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da",
+      "Tx_AGC"
+    ],
+    [
+      "46bb1ce7-0e0a-47ff-a99f-4306fd96427b",
+      "PQC50-48-S5-O_EMC_trimmed_15"
     ],
     [
       "8eff9f86-f063-4b6a-8ff6-88571e93c688",
@@ -724,22 +790,6 @@
       "PDQ10-Q48-S5-D_EMC_1"
     ],
     [
-      "3eea0769-b0fa-4084-b012-c895759d5215",
-      "Tx_AGC"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
       "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
       "PDQE15-Q48-D24-D_EMC_1"
     ],
@@ -748,16 +798,16 @@
       "Tx_Eth_Switch"
     ],
     [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
       "66481d9d-6957-47e9-a2b4-eda0119b346e",
       "Rx_Eth_Switch"
     ],
     [
       "40a8c549-aacb-49fc-8ce8-c7458ac7a4b9",
       "PDQ10-Q48-S5-D_EMC_11"
+    ],
+    [
+      "33e29609-c49f-40d6-8d19-845b9c0d1d83",
+      "fan_20x"
     ],
     [
       "a85e3a44-afc6-43fc-a4d8-d3c8f12cb5cc",

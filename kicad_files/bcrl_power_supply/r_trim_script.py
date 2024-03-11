@@ -15,10 +15,6 @@ def compute_rtrim_pdq10_q48_s5(Vo_desired):
     print(f"    R_trim_down = {rtrim_down} Ω")
 
 
-compute_rtrim_pdq10_q48_s5(5.5)
-compute_rtrim_pdq10_q48_s5(4.5)
-
-
 def compute_rtrim_pqc50(Vnom, Vout):
     delta_percent = abs(((Vnom - Vout) / Vnom) * 100)
 
@@ -37,4 +33,11 @@ def compute_rtrim_pqc50(Vnom, Vout):
 # Replace these with your actual values
 Vnom = 5.0  # Nominal voltage
 Vout_up = 8  # Desired output voltage
-compute_rtrim_pqc50(Vnom, Vout_up)
+compute_rtrim_pqc50(Vnom, 5.01)
+compute_rtrim_pqc50(Vnom, 5.1)
+compute_rtrim_pqc50(Vnom, 5.5)
+compute_rtrim_pqc50(Vnom, 6)
+compute_rtrim_pqc50(Vnom, 10)
+
+compute_rtrim_pdq10_q48_s5(5.5)
+compute_rtrim_pdq10_q48_s5(4.5)
