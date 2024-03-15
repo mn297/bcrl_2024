@@ -539,23 +539,23 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -580,7 +580,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -598,7 +598,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -607,9 +607,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -617,6 +617,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -958,9 +978,39 @@
 			)
 		)
 	)
+	(junction
+		(at 120.65 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "132d2a12-6ca9-43bf-8952-47e96eba287e")
+	)
+	(junction
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40657fef-0fdf-4eff-a752-b82777d5ad91")
+	)
+	(junction
+		(at 120.65 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d073f7-2ae2-44ea-ae44-399fb7159a81")
+	)
+	(junction
+		(at 120.65 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "796c3ee3-4509-49fb-8e1a-aaeefe93b0d6")
+	)
+	(junction
+		(at 120.65 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87f56c87-8489-4024-9032-3a4eb9fe8a85")
+	)
 	(wire
 		(pts
-			(xy 166.37 59.055) (xy 175.26 59.055)
+			(xy 166.37 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -970,13 +1020,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.275 156.21) (xy 66.675 156.21)
+			(xy 41.91 156.21) (xy 67.31 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26978d52-fb5c-46cd-9da2-f6d5a36929c3")
+	)
+	(wire
+		(pts
+			(xy 120.65 148.59) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299649a8-3279-4b88-9a5f-79c00f02c5c0")
 	)
 	(wire
 		(pts
@@ -990,17 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 167.64) (xy 129.54 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9e54c2-6d6d-429a-a711-2b260cda08d5")
-	)
-	(wire
-		(pts
-			(xy 192.5622 91.44) (xy 201.295 91.44)
+			(xy 193.04 91.44) (xy 201.93 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1010,17 +1060,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 165.1) (xy 129.54 165.1)
+			(xy 120.65 125.73) (xy 120.65 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7911aa76-00e0-47f5-880d-9a69e323a921")
+		(uuid "737c72b4-041c-43d2-aa25-7d4336ae39d7")
 	)
 	(wire
 		(pts
-			(xy 27.305 138.43) (xy 45.72 138.43)
+			(xy 120.65 133.35) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776e03d3-f0d9-45d4-93db-ea6ff76249f2")
+	)
+	(wire
+		(pts
+			(xy 27.94 138.43) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 192.5622 86.995) (xy 192.5622 91.44)
+			(xy 193.04 87.63) (xy 193.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 60.96) (xy 175.26 60.96)
+			(xy 200.66 63.5) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +1120,27 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 158.75) (xy 66.675 158.75)
+			(xy 107.95 125.73) (xy 120.65 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97c39fd-c4c5-4845-ae90-8bc57c7d1c94")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c4d2f1-6b32-4c01-8e67-fe6cada53866")
+	)
+	(wire
+		(pts
+			(xy 62.23 158.75) (xy 67.31 158.75)
 		)
 		(stroke
 			(width 0)
@@ -1080,6 +1160,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 156.21) (xy 120.65 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db40dd65-659e-40a5-bea5-1a0845b677aa")
+	)
+	(wire
+		(pts
 			(xy 30.48 36.83) (xy 39.37 36.83)
 		)
 		(stroke
@@ -1090,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.995) (xy 192.5622 86.995)
+			(xy 166.37 87.63) (xy 193.04 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 59.055) (xy 175.26 60.96)
+			(xy 175.26 59.69) (xy 175.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1209,7 @@
 		(uuid "fa472abc-895c-4f6f-8a75-9860639f0944")
 	)
 	(label "EN_3.3V_FROM_5V"
-		(at 41.275 156.21 0)
+		(at 41.91 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1130,7 +1220,7 @@
 		(uuid "4d3ff978-d7c5-4a58-95c7-4a9a558d0e7d")
 	)
 	(label "EN_3.3V_FROM_5V"
-		(at 27.305 138.43 0)
+		(at 27.94 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1141,35 +1231,17 @@
 		(uuid "f20086f6-d97b-48dc-888e-8c444e9810a2")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 129.54 0)
+		(lib_id "power:GND")
+		(at 107.95 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06415276-5792-43d6-895e-d819f2092724")
-		(property "Reference" "H2"
-			(at 172.085 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.085 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 129.54 0)
+		(uuid "14d0d5b7-a58d-4f69-a27d-e6c28f7fb48e")
+		(property "Reference" "#PWR019"
+			(at 101.6 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,8 +1249,26 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 168.91 129.54 0)
+		(property "Value" "GND"
+			(at 109.22 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,7 +1277,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 129.54 0)
+			(at 107.95 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,27 +1285,30 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "d4b0519e-466c-4429-957c-cc21db571299")
+		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H2")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 157.48 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 163.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07116d3e-6bd0-4b76-8cea-ad116501d560")
-		(property "Reference" "H5"
-			(at 172.085 156.21 0)
+		(uuid "16c99888-eca3-4bfd-b2eb-0a75471f7c0f")
+		(property "Reference" "H6"
+			(at 127 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,8 +1316,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 172.085 158.75 0)
+		(property "Value" "MountingHole_Pad"
+			(at 127 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1326,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 157.48 0)
+			(at 123.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 157.48 0)
+			(at 123.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,83 +1343,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 157.48 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "69570819-9270-4863-a7f8-6c7799b95177")
 		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10ad8b4f-ef28-45f4-ab41-5ecfa54dec60")
-		(property "Reference" "H1"
-			(at 172.085 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.085 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H1")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -1472,73 +1504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 165.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45bffd67-41f2-426b-9e8b-f7da62e72ef9")
-		(property "Reference" "#PWR019"
-			(at 110.49 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e45a5dc1-9f44-41a6-86c9-35d39864ef78")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+48V")
 		(at 30.48 34.29 90)
 		(unit 1)
@@ -1606,6 +1571,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aaa7ccd-1f85-493a-a63a-2c2815cf54dc")
+		(property "Reference" "H4"
+			(at 127 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 127 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e15231-10fa-454b-9d58-fc95f34d982d")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71b254de-c150-4ba6-9f01-2a291d2900a1")
+		(property "Reference" "H2"
+			(at 127 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 127 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3534d600-244e-4ebf-b70d-85f1c8cb95bc")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 26.67 270)
 		(unit 1)
@@ -1667,70 +1766,6 @@
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "877fa865-299f-4ec3-98ce-9d8f01ff21b9")
-		(property "Reference" "H3"
-			(at 172.085 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.085 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1805,7 +1840,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 71.755 156.21 0)
+		(at 72.39 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1814,7 +1849,7 @@
 		(fields_autoplaced yes)
 		(uuid "898ce167-703d-47fa-94f7-f3dba8eeb187")
 		(property "Reference" "J3"
-			(at 74.295 156.21 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1858,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 74.295 158.75 0)
+			(at 74.93 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1867,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 71.755 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.755 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.755 156.21 0)
+			(at 72.39 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,6 +1903,73 @@
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 156.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "956d2b33-5b35-414a-b3b6-570d1f19bbda")
+		(property "Reference" "H5"
+			(at 127 154.9399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 127 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1050453b-9c5f-49d2-befd-6fd978f0b118")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -1947,7 +2049,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 61.595 158.75 270)
+		(at 62.23 158.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1956,7 +2058,7 @@
 		(fields_autoplaced yes)
 		(uuid "afffe904-5533-47cf-98f4-df528e47aff7")
 		(property "Reference" "#PWR05"
-			(at 55.245 158.75 0)
+			(at 55.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +2067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.785 158.75 90)
+			(at 58.42 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.595 158.75 0)
+			(at 62.23 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.595 158.75 0)
+			(at 62.23 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 61.595 158.75 0)
+			(at 62.23 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,17 +2115,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 147.32 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b33b2671-c934-470a-8acf-23d526d46b65")
-		(property "Reference" "H4"
-			(at 172.085 146.05 0)
+		(uuid "be30a29c-d3cb-4819-926a-a652b435c479")
+		(property "Reference" "H3"
+			(at 127 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,8 +2133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 172.085 148.59 0)
+		(property "Value" "MountingHole_Pad"
+			(at 127 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2143,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 147.32 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 147.32 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,72 +2160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 168.91 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd891e44-381d-44a4-84fa-57661ca127a4")
-		(property "Reference" "#PWR048"
-			(at 110.49 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 167.64 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,12 +2170,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4adefe0-ef7e-4ca0-ba17-f38b99fac1af")
+			(uuid "137ed713-112c-4dae-86e8-dd002976f6a5")
 		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "#PWR048")
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 123.19 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48b89fc-32af-4698-9347-1f0771541eba")
+		(property "Reference" "H1"
+			(at 127 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 127 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f079e481-fc66-4246-b275-bfc95bf7c869")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2209,73 +2314,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 168.91 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd2ea1dc-deeb-405a-a726-4a93eb54c044")
-		(property "Reference" "H6"
-			(at 172.085 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.085 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad"
-			(at 168.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 138.43 54.61)
-		(size 27.94 17.145)
+		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2304,7 +2345,7 @@
 			)
 		)
 		(pin "+6.5V_CTL_1" input
-			(at 138.43 59.055 180)
+			(at 138.43 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2355,7 @@
 			(uuid "c3d29699-a3e9-41ca-85de-37d6e6d4c226")
 		)
 		(pin "+6.5V_CTL_2" input
-			(at 138.43 67.945 180)
+			(at 138.43 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +2365,7 @@
 			(uuid "c95b5929-c393-4205-8804-ae026b3df22a")
 		)
 		(pin "+6.5V_1" input
-			(at 166.37 59.055 0)
+			(at 166.37 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,7 +2375,7 @@
 			(uuid "6f856211-4481-4e71-a0e5-fcdebc0e2dd8")
 		)
 		(pin "+6.5V_2" input
-			(at 166.37 67.945 0)
+			(at 166.37 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2393,7 @@
 		)
 	)
 	(sheet
-		(at 212.09 133.35)
+		(at 200.66 124.46)
 		(size 21.59 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -2364,7 +2405,7 @@
 		)
 		(uuid "33e29609-c49f-40d6-8d19-845b9c0d1d83")
 		(property "Sheetname" "fan_20x"
-			(at 212.09 132.6384 0)
+			(at 200.66 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2414,7 @@
 			)
 		)
 		(property "Sheetfile" "fan_20x.kicad_sch"
-			(at 212.09 149.1746 0)
+			(at 200.66 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,8 +2469,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 53.34)
-		(size 29.845 15.24)
+		(at 200.66 55.88)
+		(size 30.48 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2440,7 +2481,7 @@
 		)
 		(uuid "43efd8cc-c38b-4cb7-86f1-5a13f4a6f7da")
 		(property "Sheetname" "Tx_AGC"
-			(at 200.66 52.6284 0)
+			(at 200.66 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2490,7 @@
 			)
 		)
 		(property "Sheetfile" "AGC_board.kicad_sch"
-			(at 200.66 69.1646 0)
+			(at 200.66 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2499,7 @@
 			)
 		)
 		(pin "+6.5V" input
-			(at 200.66 60.96 180)
+			(at 200.66 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,8 +2613,8 @@
 		)
 	)
 	(sheet
-		(at 201.295 83.82)
-		(size 29.845 15.24)
+		(at 201.93 83.82)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2584,7 +2625,7 @@
 		)
 		(uuid "7ab5448f-bd34-4432-b359-f13f98fccb68")
 		(property "Sheetname" "Rx_AGC"
-			(at 201.295 83.1084 0)
+			(at 201.93 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2634,7 @@
 			)
 		)
 		(property "Sheetfile" "AGC_board.kicad_sch"
-			(at 201.295 99.6446 0)
+			(at 201.93 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2643,7 @@
 			)
 		)
 		(pin "+6.5V" input
-			(at 201.295 91.44 180)
+			(at 201.93 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,8 +2661,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 83.185)
-		(size 41.275 17.78)
+		(at 39.37 83.82)
+		(size 41.91 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2632,7 +2673,7 @@
 		)
 		(uuid "86d69f20-72a8-480c-899a-1cc522974f16")
 		(property "Sheetname" "RxRFswMUXv1 board"
-			(at 39.37 82.4734 0)
+			(at 39.37 83.1084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2682,7 @@
 			)
 		)
 		(property "Sheetfile" "RxRFswMUXv1_board.kicad_sch"
-			(at 39.37 101.5496 0)
+			(at 39.37 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2700,7 @@
 	)
 	(sheet
 		(at 105.41 82.55)
-		(size 27.94 17.145)
+		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2688,7 +2729,7 @@
 			)
 		)
 		(pin "+6.5V_CTL_1" input
-			(at 105.41 86.995 180)
+			(at 105.41 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2739,7 @@
 			(uuid "dbdd2d91-5df2-45b3-8d17-e9977fe771a4")
 		)
 		(pin "+6.5V_CTL_2" input
-			(at 105.41 95.885 180)
+			(at 105.41 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2749,7 @@
 			(uuid "633a83f7-1360-40bc-9171-7b158615863a")
 		)
 		(pin "+6.5V_1" input
-			(at 133.35 86.995 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2759,7 @@
 			(uuid "3691f756-2339-4d6a-b6ea-a4958c0014f4")
 		)
 		(pin "+6.5V_2" input
-			(at 133.35 95.885 0)
+			(at 133.35 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2816,7 @@
 	)
 	(sheet
 		(at 138.43 82.55)
-		(size 27.94 17.145)
+		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2804,7 +2845,7 @@
 			)
 		)
 		(pin "+6.5V_CTL_1" input
-			(at 138.43 86.995 180)
+			(at 138.43 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2855,7 @@
 			(uuid "ab341246-8f26-4ca3-856c-2a754719584b")
 		)
 		(pin "+6.5V_CTL_2" input
-			(at 138.43 95.885 180)
+			(at 138.43 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2865,7 @@
 			(uuid "c3d5b995-51e4-4b7a-a194-4a15b03cc8bf")
 		)
 		(pin "+6.5V_1" input
-			(at 166.37 86.995 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,7 +2875,7 @@
 			(uuid "273c2de1-9019-4815-af69-65ccca24bb0c")
 		)
 		(pin "+6.5V_2" input
-			(at 166.37 95.885 0)
+			(at 166.37 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2852,8 +2893,8 @@
 		)
 	)
 	(sheet
-		(at 243.205 50.8)
-		(size 34.29 18.415)
+		(at 242.57 55.88)
+		(size 34.29 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2864,7 +2905,7 @@
 		)
 		(uuid "a85e3a44-afc6-43fc-a4d8-d3c8f12cb5cc")
 		(property "Sheetname" "Tx_RPi4_HAT_board"
-			(at 243.205 50.0884 0)
+			(at 242.57 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +2914,7 @@
 			)
 		)
 		(property "Sheetfile" "RPi4_HAT_board.kicad_sch"
-			(at 243.205 69.7996 0)
+			(at 242.57 74.8796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,8 +2931,8 @@
 		)
 	)
 	(sheet
-		(at 243.84 76.835)
-		(size 34.29 18.415)
+		(at 242.57 81.28)
+		(size 34.29 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2902,7 +2943,7 @@
 		)
 		(uuid "b08c53be-3c36-4aa7-b4db-fe44d17a238c")
 		(property "Sheetname" "Rx_RPi4_HAT_board"
-			(at 243.84 76.1234 0)
+			(at 242.57 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +2952,7 @@
 			)
 		)
 		(property "Sheetfile" "RPi4_HAT_board.kicad_sch"
-			(at 243.84 95.8346 0)
+			(at 242.57 100.2796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2970,7 @@
 	)
 	(sheet
 		(at 105.41 54.61)
-		(size 27.94 17.145)
+		(size 27.94 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2958,7 +2999,7 @@
 			)
 		)
 		(pin "+6.5V_CTL_1" input
-			(at 105.41 59.055 180)
+			(at 105.41 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +3009,7 @@
 			(uuid "71b4cfd1-a73a-49a7-b37b-bae9ccdce17b")
 		)
 		(pin "+6.5V_CTL_2" input
-			(at 105.41 67.945 180)
+			(at 105.41 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2978,7 +3019,7 @@
 			(uuid "e1b58693-f3df-427a-821e-7735f7401d34")
 		)
 		(pin "+6.5V_1" input
-			(at 133.35 59.055 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2988,7 +3029,7 @@
 			(uuid "9aece530-1bef-4213-8f70-98ef4b03f677")
 		)
 		(pin "+6.5V_2" input
-			(at 133.35 67.945 0)
+			(at 133.35 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

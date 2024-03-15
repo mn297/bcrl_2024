@@ -1,0 +1,58 @@
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.11.5 (main, Jan 19 2024, 08:13:45) [MSC v.1936 64 bit (AMD64)]'
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 8.0.0
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 3.0.2
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000001C195BF8670>
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U14 as a reference
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U14'
+Located on: ['Rx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13']
+With filenames: ['Eth_Switch.kicad_sch', 'PDQ10-Q48-S5-D_EMC.kicad_sch']
+With sheet_id:['Rx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13']
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U2', ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_3']), ('U10', ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_12']), ('U9', ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_10']), ('U14', ['Rx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13']), ('U15', ['Tx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13']), ('U1', ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_2']), ('U11', ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_9']), ('U8', ['Rx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_8']), ('U13', ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_11']), ('U12', ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_1']), ('U6', ['Tx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_7']), ('U7', ['Rx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_7']), ('U5', ['Tx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_8']), ('U4', ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_4'])]
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'PDQ10-Q48-S5-D_EMC_13', file:'PDQ10-Q48-S5-D_EMC.kicad_sch'
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_10'], ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_11'], ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_12'], ['RxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_9'], ['Rx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_7'], ['Rx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_8'], ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_1'], ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_2'], ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_3'], ['TxRFswMUXv1 board', 'PDQ10-Q48-S5-D_EMC_4'], ['Tx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13'], ['Tx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_7'], ['Tx_RPi4_HAT_board', 'PDQ10-Q48-S5-D_EMC_8']]
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['Rx_Eth_Switch', 'PDQ10-Q48-S5-D_EMC_13']
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(3788, 116)
+03-15 00:30:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(3349, 116)
+03-15 00:30:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Rx_Eth_Switch', file:'Eth_Switch.kicad_sch'
+03-15 00:30:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['Tx_Eth_Switch']]
+03-15 00:30:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1503:Level selected: ['Rx_Eth_Switch']
+03-15 00:30:35 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 462:constructing a list of sheets suitable for replication on level:'Rx_Eth_Switch', file:'Eth_Switch.kicad_sch'
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 499:suitable sheets are:[['Tx_Eth_Switch']]
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 278:Starting replication of sheets: [['Tx_Eth_Switch']]
+on level: ['Rx_Eth_Switch']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+03-15 00:30:38 root 332:updating GUI message: 'Preparing for replication'
+03-15 00:30:38 root 337:updating GUI with: 0
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 348:Getting the list of source footprints
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 358:Getting the list of all the remaining footprints
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 365:Getting source tracks
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Filtering list of tracks
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 369:Getting source zones
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 373:Getting source text items
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:Getting source drawing items
+03-15 00:30:38 root 332:updating GUI message: 'Replicating footprints'
+03-15 00:30:38 root 337:updating GUI with: 0
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating footprints
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 851:Replicating footprints on sheet ['Tx_Eth_Switch']
+03-15 00:30:38 root 332:updating GUI message: 'Replicating tracks'
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1005:Replicating tracks
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1011:Replicating tracks on sheet ['Tx_Eth_Switch']
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Tx_Eth_Switch'] :[('/Rx_Eth_Switch/CTL', '/Tx_Eth_Switch/CTL'), ('/Rx_Eth_Switch/+5V', '/Tx_Eth_Switch/+5V'), ('/Rx_Eth_Switch/PDQ10-Q48-S5-D_EMC_13/VIN', '/Tx_Eth_Switch/PDQ10-Q48-S5-D_EMC_13/VIN'), ('48V', '48V'), ('Net-(D26-K)', 'Net-(D25-K)'), ('GND', 'GND'), ('Net-(U14-TRIM)', 'Net-(U15-TRIM)')]
+03-15 00:30:38 root 332:updating GUI message: 'Replicating zones'
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1075:Replicating zones
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1082:Replicating zones on sheet ['Tx_Eth_Switch']
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 804:Net pairs for sheet ['Tx_Eth_Switch'] :[('/Rx_Eth_Switch/CTL', '/Tx_Eth_Switch/CTL'), ('/Rx_Eth_Switch/+5V', '/Tx_Eth_Switch/+5V'), ('/Rx_Eth_Switch/PDQ10-Q48-S5-D_EMC_13/VIN', '/Tx_Eth_Switch/PDQ10-Q48-S5-D_EMC_13/VIN'), ('48V', '48V'), ('Net-(D26-K)', 'Net-(D25-K)'), ('GND', 'GND'), ('Net-(U14-TRIM)', 'Net-(U15-TRIM)')]
+03-15 00:30:38 root 332:updating GUI message: 'Replicating text'
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1164:Replicating text
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1171:Replicating text on sheet ['Tx_Eth_Switch']
+03-15 00:30:38 root 332:updating GUI message: 'Replicating drawings'
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1215:Replicating drawings
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1221:Replicating drawings on sheet ['Tx_Eth_Switch']
+03-15 00:30:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete

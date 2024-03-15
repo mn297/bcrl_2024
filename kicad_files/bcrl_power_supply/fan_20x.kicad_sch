@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 121.92) (xy 50.8 121.92)
+			(xy 77.47 81.28) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 76.2 100.33)
+			(xy 119.38 106.68) (xy 134.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 110.49 100.33)
+			(xy 161.29 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 168.91) (xy 50.8 168.91)
+			(xy 77.47 128.27) (xy 72.39 128.27)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 153.67) (xy 50.8 153.67)
+			(xy 77.47 113.03) (xy 72.39 113.03)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 137.16) (xy 50.8 137.16)
+			(xy 77.47 96.52) (xy 72.39 96.52)
 		)
 		(stroke
 			(width 0)
@@ -558,7 +558,7 @@
 		(uuid "fb75e7a0-63f9-4581-97cb-5a54332c5ee1")
 	)
 	(label "V_FAN"
-		(at 50.8 137.16 0)
+		(at 72.39 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -569,7 +569,7 @@
 		(uuid "09471887-afeb-4a63-9c5f-69a14e4be7f6")
 	)
 	(label "V_FAN"
-		(at 50.8 153.67 0)
+		(at 72.39 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -580,7 +580,7 @@
 		(uuid "280a81ce-232a-4eef-a06b-54b9f9d85099")
 	)
 	(label "V_FAN"
-		(at 110.49 100.33 180)
+		(at 168.91 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -591,7 +591,7 @@
 		(uuid "357f58c8-339e-44eb-91d6-4b1f271f97b2")
 	)
 	(label "FAN_CTL"
-		(at 60.96 100.33 0)
+		(at 119.38 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -602,7 +602,7 @@
 		(uuid "78ece8a8-6000-4f7c-81f7-4c29343df45a")
 	)
 	(label "V_FAN"
-		(at 50.8 168.91 0)
+		(at 72.39 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -613,7 +613,7 @@
 		(uuid "9f563a31-b1f8-4c35-8872-41613515b60c")
 	)
 	(label "V_FAN"
-		(at 50.8 121.92 0)
+		(at 72.39 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -625,7 +625,7 @@
 	)
 	(symbol
 		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 55.88 137.16 0)
+		(at 77.47 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -634,7 +634,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fbb8704-75a2-40ff-bb9b-1ef565194800")
 		(property "Reference" "J72"
-			(at 69.85 137.16 0)
+			(at 91.44 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -643,7 +643,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 69.85 139.7 0)
+			(at 91.44 99.06 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -652,7 +652,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 45.72 132.08 0)
+			(at 67.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 134.62 0)
+			(at 71.12 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,7 +672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 137.16 0)
+			(at 77.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 171.45 270)
+		(at 77.47 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -706,7 +706,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e0438ba-db6c-486d-9143-c3d52609a24b")
 		(property "Reference" "#PWR0257"
-			(at 49.53 171.45 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 171.45 90)
+			(at 73.66 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 171.45 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 171.45 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 171.45 0)
+			(at 77.47 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 156.21 270)
+		(at 77.47 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -773,7 +773,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e4249b6-6f62-4268-938c-31c8d92fd76e")
 		(property "Reference" "#PWR0256"
-			(at 49.53 156.21 0)
+			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +782,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 156.21 90)
+			(at 73.66 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,7 +791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 156.21 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,7 +800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 156.21 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 156.21 0)
+			(at 77.47 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +831,7 @@
 	)
 	(symbol
 		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 55.88 168.91 0)
+		(at 77.47 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -840,7 +840,7 @@
 		(fields_autoplaced yes)
 		(uuid "490767ab-f90d-4102-a243-a179b2fb97da")
 		(property "Reference" "J74"
-			(at 69.85 168.91 0)
+			(at 91.44 128.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -849,7 +849,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 69.85 171.45 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -858,7 +858,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 45.72 163.83 0)
+			(at 67.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 166.37 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +878,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 168.91 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 124.46 270)
+		(at 77.47 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -912,7 +912,7 @@
 		(fields_autoplaced yes)
 		(uuid "de65945b-4528-4215-abef-3dd029901859")
 		(property "Reference" "#PWR0254"
-			(at 49.53 124.46 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 124.46 90)
+			(at 73.66 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 124.46 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 124.46 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 124.46 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +970,7 @@
 	)
 	(symbol
 		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 55.88 153.67 0)
+		(at 77.47 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -979,7 +979,7 @@
 		(fields_autoplaced yes)
 		(uuid "df5f2ace-ec3e-441f-a714-be529aa31220")
 		(property "Reference" "J73"
-			(at 69.85 153.67 0)
+			(at 91.44 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -988,7 +988,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 69.85 156.21 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -997,7 +997,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 45.72 148.59 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 151.13 0)
+			(at 71.12 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 153.67 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1042,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 139.7 270)
+		(at 77.47 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1051,7 +1051,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2e1487f-686b-4921-9d3e-4a6d4b86ae95")
 		(property "Reference" "#PWR0255"
-			(at 49.53 139.7 0)
+			(at 71.12 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 139.7 90)
+			(at 73.66 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,7 +1069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 139.7 0)
+			(at 77.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 139.7 0)
+			(at 77.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 139.7 0)
+			(at 77.47 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1109,7 @@
 	)
 	(symbol
 		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 55.88 121.92 0)
+		(at 77.47 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1118,7 +1118,7 @@
 		(fields_autoplaced yes)
 		(uuid "e908307b-6bf6-4286-98cb-1191c37db129")
 		(property "Reference" "J71"
-			(at 69.85 121.92 0)
+			(at 91.44 81.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1127,7 +1127,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 69.85 124.46 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1136,7 +1136,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 45.72 116.84 0)
+			(at 67.31 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 119.38 0)
+			(at 71.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +1156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 121.92 0)
+			(at 77.47 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1180,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 95.25)
+		(at 134.62 101.6)
 		(size 26.67 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -1192,7 +1192,7 @@
 		)
 		(uuid "46bb1ce7-0e0a-47ff-a99f-4306fd96427b")
 		(property "Sheetname" "PQC50-48-S5-O_EMC_trimmed_15"
-			(at 76.2 94.5384 0)
+			(at 134.62 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1201,7 +1201,7 @@
 			)
 		)
 		(property "Sheetfile" "PQC50-48-S5-O_EMC_trimmed.kicad_sch"
-			(at 76.2 105.9946 0)
+			(at 134.62 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1210,7 @@
 			)
 		)
 		(pin "+VO" output
-			(at 102.87 100.33 0)
+			(at 161.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 			(uuid "af5f26c7-9083-4b1d-bdb2-462713c7fe59")
 		)
 		(pin "CTRL" input
-			(at 76.2 100.33 180)
+			(at 134.62 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)

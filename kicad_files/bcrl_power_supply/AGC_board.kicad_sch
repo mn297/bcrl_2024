@@ -345,14 +345,14 @@
 		)
 	)
 	(junction
-		(at 37.465 45.085)
+		(at 38.1 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8eed39e-4b46-441b-951e-573211c2be4d")
 	)
 	(wire
 		(pts
-			(xy 49.53 45.085) (xy 37.465 45.085)
+			(xy 49.53 45.72) (xy 38.1 45.72)
 		)
 		(stroke
 			(width 0)
@@ -362,7 +362,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.165) (xy 37.465 50.165)
+			(xy 39.37 50.8) (xy 38.1 50.8)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 42.545) (xy 37.465 42.545)
+			(xy 39.37 43.18) (xy 38.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -382,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.465 45.085) (xy 37.465 47.625)
+			(xy 38.1 45.72) (xy 38.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +392,7 @@
 	)
 	(hierarchical_label "+6.5V"
 		(shape input)
-		(at 49.53 45.085 0)
+		(at 49.53 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -404,7 +404,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 32.385 45.085 0)
+		(at 33.02 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -413,7 +413,7 @@
 		(fields_autoplaced yes)
 		(uuid "a02d770a-5609-4282-aa64-6d5d5e9b800c")
 		(property "Reference" "J59"
-			(at 33.02 37.465 0)
+			(at 33.655 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -421,7 +421,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 33.02 40.005 0)
+			(at 33.655 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +429,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 32.385 45.085 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -438,7 +438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 32.385 45.085 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -447,7 +447,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 32.385 45.085 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +482,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 50.165 90)
+		(at 39.37 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -491,7 +491,7 @@
 		(fields_autoplaced yes)
 		(uuid "def996d0-806b-4108-a483-bad96844f716")
 		(property "Reference" "#PWR0196"
-			(at 45.72 50.165 0)
+			(at 45.72 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +500,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 50.165 90)
+			(at 43.18 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 50.165 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 50.165 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 50.165 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -553,7 +553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 42.545 90)
+		(at 39.37 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -562,7 +562,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4574f0c-7f76-4136-94f4-db36947f0aec")
 		(property "Reference" "#PWR0195"
-			(at 45.72 42.545 0)
+			(at 45.72 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 42.545 90)
+			(at 43.18 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -580,7 +580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 42.545 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -589,7 +589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 42.545 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 42.545 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
