@@ -30,6 +30,24 @@ def compute_rtrim_pqc50(Vnom, Vout):
     print(f"    Rtrim Down: {rtrim_down * 1000} Ω")
 
 
+def compute_rtrim_pybe20_q48_s9(Vo_desired):
+    V_out = 9
+    R_top = 7500
+    R_bottom = 2870
+    R_o = 15000
+    V_ref = 2.5
+
+    a = V_ref / (V_out - V_ref) * R_bottom
+    R_trim_up = (a * R_bottom) / (R_bottom - a) - R_o
+    
+    a = (V_out - V_ref) / V_ref * R_bottom
+    R_trim_down = (a * R_top) / (R_top - a) - R_o
+
+    print(f"pybe20_q48_s9 For Vo = {Vo_desired}V:")
+    print(f"    R_trim_up = {R_trim_up} Ω")
+    print(f"    R_trim_down = {R_trim_down} Ω")
+
+
 # Replace these with your actual values
 Vnom = 5.0  # Nominal voltage
 Vout_up = 8  # Desired output voltage
@@ -41,3 +59,5 @@ compute_rtrim_pqc50(Vnom, 10)
 
 compute_rtrim_pdq10_q48_s5(5.5)
 compute_rtrim_pdq10_q48_s5(4.5)
+
+compute_rtrim_pybe20_q48_s9(8.0)

@@ -1352,6 +1352,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69570819-9270-4863-a7f8-6c7799b95177")
 		)
@@ -1413,6 +1422,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 39.37 34.29 0)
 			(effects
 				(font
@@ -1625,6 +1643,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68e15231-10fa-454b-9d58-fc95f34d982d")
 		)
@@ -1684,6 +1711,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -1893,6 +1929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 72.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ebfc133-8460-4d5a-a4eb-0dba9f3ba059")
 		)
@@ -1963,6 +2008,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1050453b-9c5f-49d2-befd-6fd978f0b118")
 		)
@@ -2024,6 +2078,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -2169,6 +2232,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 123.19 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "137ed713-112c-4dae-86e8-dd002976f6a5")
 		)
@@ -2228,6 +2300,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 123.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 123.19 125.73 0)
 			(effects
 				(font

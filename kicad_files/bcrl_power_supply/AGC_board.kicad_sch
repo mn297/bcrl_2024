@@ -455,6 +455,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 33.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "05617747-691e-44a2-931b-11667e6cd4a2")
 		)

@@ -1121,6 +1121,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "968e562b-50a9-476f-9ae3-4185d928d184")
 		)
@@ -1406,6 +1415,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 62.23 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "22602a3d-7bc7-4d6e-ba24-630e172466b6")
 		)
@@ -1483,6 +1501,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -2132,6 +2159,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28328409-9a78-4c5a-a34b-024a2a489add")
 		)
@@ -2359,6 +2395,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "28438b6e-9fe8-443b-8568-4f8209a086ac")
 		)
@@ -2444,6 +2489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 139.7 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "248e6be0-6585-4a47-a36c-f9507e71c3f9")
 		)
@@ -2509,6 +2563,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -2804,6 +2867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d165bdc-d748-462f-b0a7-45b5c5b1155c")
 		)
@@ -2869,6 +2941,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 193.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 193.04 96.52 0)
 			(effects
 				(font
@@ -3154,6 +3235,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 60.96 81.28 0)
 			(effects
 				(font

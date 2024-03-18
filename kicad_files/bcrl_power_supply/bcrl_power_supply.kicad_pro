@@ -573,6 +573,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -808,6 +814,10 @@
     [
       "33e29609-c49f-40d6-8d19-845b9c0d1d83",
       "fan_20x"
+    ],
+    [
+      "a1e164ce-9ade-499f-8629-2721619051ad",
+      "PYBE20-Q48-S9_8V_trim_1"
     ],
     [
       "a85e3a44-afc6-43fc-a4d8-d3c8f12cb5cc",
