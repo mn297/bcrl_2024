@@ -946,7 +946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5695e5-0490-4930-bf8c-6d71491a6dad")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0121"
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -996,7 +996,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-					(reference "#PWR064")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -1011,7 +1011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc93b883-7b31-4db9-abc0-928fe306772a")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0120"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -1061,7 +1061,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-					(reference "#PWR063")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
