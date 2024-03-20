@@ -635,7 +635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e9884c-2b8e-4877-91b4-440a245a8839")
-		(property "Reference" "#PWR0183"
+		(property "Reference" "#PWR0251"
 			(at 71.12 140.97 0)
 			(effects
 				(font
@@ -686,7 +686,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0183")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -702,7 +702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8510ef76-8afb-41d6-9048-7c0c4f420f0b")
-		(property "Reference" "J47"
+		(property "Reference" "J48"
 			(at 91.44 118.11 0)
 			(effects
 				(font
@@ -767,6 +767,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45a638cb-f272-4a61-a46f-2d2abc6e8bed")
 		)
@@ -776,7 +785,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J47")
+					(reference "J48")
 					(unit 1)
 				)
 			)
@@ -792,7 +801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4a2617-80ec-42ff-a6ac-4a4806d573b1")
-		(property "Reference" "J48"
+		(property "Reference" "J49"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -857,6 +866,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fa8d5eb-a536-47df-bc50-84c36f71f027")
 		)
@@ -866,7 +884,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J48")
+					(reference "J49")
 					(unit 1)
 				)
 			)
@@ -882,7 +900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bacbfb56-fbab-4420-87b8-b63745a5b021")
-		(property "Reference" "#PWR0182"
+		(property "Reference" "#PWR0250"
 			(at 71.12 120.65 0)
 			(effects
 				(font
@@ -933,7 +951,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0182")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -949,7 +967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be51258d-8abd-4a12-b680-187a8129e635")
-		(property "Reference" "#PWR0181"
+		(property "Reference" "#PWR0249"
 			(at 71.12 102.87 0)
 			(effects
 				(font
@@ -1000,7 +1018,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0181")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -1016,7 +1034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de65945b-4528-4215-abef-3dd029901859")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0248"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -1067,7 +1085,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0221")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -1083,7 +1101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e908307b-6bf6-4286-98cb-1191c37db129")
-		(property "Reference" "J45"
+		(property "Reference" "J46"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -1148,6 +1166,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab13ad54-9829-4a69-91f8-0e433528e804")
 		)
@@ -1157,7 +1184,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J45")
+					(reference "J46")
 					(unit 1)
 				)
 			)
@@ -1173,7 +1200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6b36ef7-5e47-4c5c-bd31-d208a3065ad5")
-		(property "Reference" "J46"
+		(property "Reference" "J47"
 			(at 91.44 100.33 0)
 			(effects
 				(font
@@ -1238,6 +1265,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bc7ddff-6fba-4bb8-aab1-3fe54716ede3")
 		)
@@ -1247,7 +1283,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J46")
+					(reference "J47")
 					(unit 1)
 				)
 			)

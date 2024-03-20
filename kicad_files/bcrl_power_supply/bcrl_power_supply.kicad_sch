@@ -1309,6 +1309,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 135.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69570819-9270-4863-a7f8-6c7799b95177")
 		)
@@ -1388,6 +1397,15 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rating" ""
 			(at 39.37 34.29 0)
 			(effects
 				(font
@@ -1618,6 +1636,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 135.89 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68e15231-10fa-454b-9d58-fc95f34d982d")
 		)
@@ -1695,6 +1722,15 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 135.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rating" ""
 			(at 135.89 107.95 0)
 			(effects
 				(font
@@ -1922,6 +1958,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ebfc133-8460-4d5a-a4eb-0dba9f3ba059")
 		)
@@ -2010,6 +2055,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 135.89 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1050453b-9c5f-49d2-befd-6fd978f0b118")
 		)
@@ -2089,6 +2143,15 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 39.37 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rating" ""
 			(at 39.37 24.13 0)
 			(effects
 				(font
@@ -2252,6 +2315,15 @@
 				(hide yes)
 			)
 		)
+		(property "rating" ""
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "137ed713-112c-4dae-86e8-dd002976f6a5")
 		)
@@ -2329,6 +2401,15 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rating" ""
 			(at 135.89 100.33 0)
 			(effects
 				(font

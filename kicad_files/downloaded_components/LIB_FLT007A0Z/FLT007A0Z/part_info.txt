@@ -1,0 +1,9 @@
+Manufacturer=OmniOn Power
+PartNumber=FLT007A0Z
+PartCategory=Filter
+PackageCategory=Other
+PinCount=5
+Version=2.1
+Released=2019-09-27 11:11:13
+Downloaded=2024-03-20 16:44:08
+3D=N

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FLT007A0Z'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "OmniOn Power", "FLT007A0Z" (!) = "", "FLT007A0Z", "Other", "894-FLT007A0Z", "https://www.mouser.co.uk/ProductDetail/OmniOn-Power/FLT007A0Z?qs=L%252BFMDj%252BH4RpHUvEHu%2F%252BBmg%3D%3D", "Power Line Filters 0-75Vdc 7A Through Hole", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8eec6756649e3853f18fd1295f6060ea.pdf"
+END_PART
+
+END.

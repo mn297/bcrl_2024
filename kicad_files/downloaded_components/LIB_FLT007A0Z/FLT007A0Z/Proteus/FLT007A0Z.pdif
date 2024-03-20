@@ -1,0 +1,122 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "FLT007A0Z"
+   (description "Power Line Filters 0-75Vdc 7A Through Hole")
+   (family "ANA")
+   (package "FLT007A0Z")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8eec6756649e3853f18fd1295f6060ea.pdf")
+   (attribute "Mouser Part Number" "894-FLT007A0Z")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/OmniOn-Power/FLT007A0Z?qs=L%252BFMDj%252BH4RpHUvEHu%2F%252BBmg%3D%3D")
+   (attribute "Manufacturer_Name" "OmniOn Power")
+   (attribute "Manufacturer_Part_Number" "FLT007A0Z")
+   (gate
+    (symbol "FLT007A0Z")
+    (pin "VIN+" 1 PS)
+    (pin "VIN-" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "VO+" 4 PS)
+    (pin "VO-" 5 PS)
+   )
+  )
+  (symbol "FLT007A0Z"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FLT007A0Z"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.8 22.62)
+      (pt 22.6 22.62)
+      (pt 22.6 -2.78)
+      (pt -2.8 -2.78)
+      (pt -2.8 22.62))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 -2.78)
+      (pt 22.6 -2.78)
+      (pt 22.6 22.62)
+      (pt -2.8 22.62)
+      (pt -2.8 -2.78))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.4 -3.78)
+      (pt 23.6 -3.78)
+      (pt 23.6 23.62)
+      (pt -4.4 23.62)
+      (pt -4.4 -3.78))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.4 0.2)
+      (arc (pt -3.400 0.200) (pt -3.400 0.250) (pt -3.300 0.150) (start 180.0) (sweep 180.0))
+      (pt -3.3 0.2)
+      (arc (pt -3.300 0.200) (pt -3.400 0.250) (pt -3.300 0.150) (start 180.0) (sweep .0))
+      (pt -3.4 0.2)
+      (arc (pt -3.400 0.200) (pt -3.400 0.250) (pt -3.300 0.150) (start 180.0) (sweep 180.0))
+      (pt -3.3 0.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 19.820) (padstack 0))
+   (leg 3 (pt 0.000 9.910) (padstack 0))
+   (leg 4 (pt 19.810 0.010) (padstack 0))
+   (leg 5 (pt 19.810 19.820) (padstack 0))
+   (padstack 0
+    (hole 1.19)
+    (plated true)
+    (pad (layer TCOP) (round 1.785))
+    (pad (layer INNER) (round 1.785))
+    (pad (layer BCOP) (round 1.785))
+   )
+  )
+ )
+)

@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FLT007A0Z
+#/2418773/1354123/2.50/5/4/Filter
+DEF FLT007A0Z FL 0 30 Y Y 1 F N
+F0 "FL" 950 300 50 H V L CNN
+F1 "FLT007A0Z" 950 200 50 H V L CNN
+F2 "FLT007A0Z" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8eec6756649e3853f18fd1295f6060ea.pdf" 950 0 50 H I L CNN
+F4 "Power Line Filters 0-75Vdc 7A Through Hole" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "894-FLT007A0Z" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/OmniOn-Power/FLT007A0Z?qs=L%252BFMDj%252BH4RpHUvEHu%2F%252BBmg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "OmniOn Power" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FLT007A0Z" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VIN+ 1 0 -200 200 R 50 50 0 0 P
+X VIN- 2 0 0 200 R 50 50 0 0 P
+X GND 3 0 -100 200 R 50 50 0 0 P
+X VO+ 4 1100 -100 200 L 50 50 0 0 P
+X VO- 5 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

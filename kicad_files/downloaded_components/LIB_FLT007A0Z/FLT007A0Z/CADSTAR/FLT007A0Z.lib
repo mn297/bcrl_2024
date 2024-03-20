@@ -1,0 +1,15 @@
+.FLT007A0Z :1 ;Power Line Filters 0-75Vdc 7A Through Hole
+FLT007A0Z
+*STM FL
+*NGS
+*PLB 1="VIN+" 2="VIN-" 3="GND" 4="VO+" 5="VO-"
+*MXP 5
+*DFN FLT007A0Z
+~!Mouser Part Number (894-FLT007A0Z)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/OmniOn-Power/FLT007A0Z?qs=L%252BFMDj%252BH4RpHUvEHu%2F%252BBmg%3D%3D)
+~!Manufacturer_Name (OmniOn Power)
+~!Manufacturer_Part_Number (FLT007A0Z)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/8eec6756649e3853f18fd1295f6060ea.pdf)
+~!Height (-)
+FLT007A0Z
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

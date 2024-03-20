@@ -657,6 +657,12 @@
           "label": "DigiKey_Part_Number",
           "name": "DigiKey_Part_Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rating",
+          "name": "rating",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -734,10 +740,6 @@
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
-      "0a24f7fc-6b6d-48f0-a789-c2c91d71134f",
-      "Rx_RPi4_HAT_board1"
-    ],
-    [
       "db6c32bf-58d8-4a18-acc2-3e047a745caa",
       "IND108W_EMC_8V_6"
     ],
@@ -770,28 +772,8 @@
       "PDQ10-Q48-S5-D_EMC_13"
     ],
     [
-      "7c0690db-3f5f-49cd-a851-a45f0e3dad70",
-      "Tx_RPi4_HAT_board1"
-    ],
-    [
-      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
-      "PDQE15-Q48-D24-D_EMC_1"
-    ],
-    [
-      "74a3158c-0b47-46ec-a68c-98786ff4f376",
-      "PDQ10-Q48-S5-D_EMC_8"
-    ],
-    [
-      "74a3158c-0b47-46ec-a68c-98786ff4f376",
-      "PDQ10-Q48-S5-D_EMC_8"
-    ],
-    [
       "774e6e63-0cbf-48e4-a7a5-4f024e6e20fe",
       "PDQ10-Q48-S5-D_EMC_14"
-    ],
-    [
-      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
-      "PDQE15-Q48-D24-D_EMC_1"
     ],
     [
       "d4fb83f6-a2b2-45cb-878f-309a813c4a52",
@@ -818,8 +800,16 @@
       "PDQ10-Q48-S5-D_EMC_17"
     ],
     [
+      "d4052f31-6719-4a3f-8e3d-840c16382ac2",
+      "PDQ10-Q48-S5-D_EMC_9"
+    ],
+    [
       "044ed215-894f-4fc1-8dec-169dde83377a",
       "EHHD010A0B41-HZ5"
+    ],
+    [
+      "dfbcbc03-9f90-4558-ba03-e62649711b92",
+      "PDQE15-Q48-D24-D_EMC_2"
     ],
     [
       "5b3cea8f-cfa6-439c-b179-91d0f6a8ffdc",
