@@ -752,6 +752,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "124f57cb-354d-430f-bc90-fc6cf2cc8a88")
 		)
@@ -843,6 +852,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8390393-5ed3-4ba7-b2b8-2172238bacd6")
 		)
@@ -921,6 +939,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5478930b-bea8-4b35-af63-538f02058b6f")
 		)
@@ -946,7 +973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db5695e5-0490-4930-bf8c-6d71491a6dad")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR061"
 			(at 143.51 92.71 0)
 			(effects
 				(font
@@ -996,7 +1023,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-					(reference "#PWR0121")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1011,7 +1038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc93b883-7b31-4db9-abc0-928fe306772a")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR060"
 			(at 49.53 107.95 0)
 			(effects
 				(font
@@ -1061,7 +1088,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/6ef64b97-f9dc-450f-b711-7d52ab21fa20"
-					(reference "#PWR0120")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

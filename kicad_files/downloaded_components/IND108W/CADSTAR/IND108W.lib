@@ -1,0 +1,18 @@
+.IND108W :1 ;Non-Isolated DC/DC Converters 12Vin 3-9V 108W 12A Neg Log SMT 33 mm x 13.46 mm x 10 mm
+IND108W
+*STM PS
+*NGS
+*PLB 1="ON/OFF" 2="GND_1" 3="VS+" 4="TRIM" 5="VOUT" 6="GND_2" 7="SYNC" 8="GND_3" 9="VIN"
+*MXP 9
+*DFN IND108W
+~!Manufacturer_Name (OmniOn Power)
+~!Manufacturer_Part_Number (IND108W)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.omnionpower.com/assets/pdfs/windchill/data-sheet/ind108w_ds.pdf?nocache=1710831926)
+~!Height (10mm)
+~!3D_Model (IND108W)
+IND108W
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 

@@ -1,4 +1,4 @@
-23060570331128730
+23061668924260866
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83,6 +83,13 @@ CONV_PYBE20-Q48-S9
 0
 6
 6
+BCRL_power_supply
+IND108W
+IND108W-1
+Power Supply
+0
+9
+9
 BCRL_power_supply
 MOLEX_5034801600
 

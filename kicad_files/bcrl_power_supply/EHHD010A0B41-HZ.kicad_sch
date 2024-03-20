@@ -812,7 +812,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b74bd73b-d403-4612-a5d3-b68729a8c7b2")
+		(uuid "da2af373-0982-46dc-bd0b-5e035591ec71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.7872 91.44 0)
 			(effects
@@ -824,18 +824,6 @@
 			)
 		)
 	)
-	(hierarchical_label "ON{slash}OFF"
-		(shape input)
-		(at 116.84 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "569fa0d6-2cd3-440a-8de8-b688ae3833f0")
-	)
 	(hierarchical_label "+12V"
 		(shape output)
 		(at 176.53 91.44 0)
@@ -846,73 +834,19 @@
 			)
 			(justify left)
 		)
-		(uuid "8c9b270e-ab02-4241-8fbf-384c1af773c3")
+		(uuid "0787c7c9-ddaa-4fae-8ded-558a0332d584")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 177.8 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "ON{slash}OFF"
+		(shape input)
+		(at 116.84 96.52 180)
 		(fields_autoplaced yes)
-		(uuid "05579ecf-27da-4e40-9dc6-a15d1629ad93")
-		(property "Reference" "#PWR0136"
-			(at 177.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "GND"
-			(at 177.8 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cc7f900-1211-4685-88e8-b79cba1e24b1")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "645a9fcc-ca3b-42d5-9df9-674df33e3473")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -923,8 +857,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3d30e862-8506-45f5-9aa7-9664f6392da9")
-		(property "Reference" "#PWR0135"
+		(uuid "00e2a817-7881-485d-9774-290044d9d5f9")
+		(property "Reference" "#PWR077"
 			(at 80.01 107.95 0)
 			(effects
 				(font
@@ -969,82 +903,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa1bcf62-95af-412e-b812-cb1d5daadf8a")
+			(uuid "5f7923a5-5839-465b-912a-5d47fda0cc42")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "#PWR0135")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "#PWR077")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd83c16-0785-4e03-a146-365fb36f1943")
-		(property "Reference" "C60"
-			(at 92.71 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "#PWR0188")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uf"
-			(at 92.71 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "#PWR0223")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.8652 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "780edeb3-292a-48a5-88ab-fe4245ceaae3")
-		)
-		(pin "2"
-			(uuid "5f580108-45d3-42ff-ae12-fe4d0d9be03f")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "C60")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -1059,8 +935,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7f4537ea-ed7b-418e-832d-fdbc0d2c3cbc")
-		(property "Reference" "C61"
+		(uuid "170c3933-aa64-41bf-b8d1-cbcfd3678d18")
+		(property "Reference" "C68"
 			(at 104.14 95.2499 0)
 			(effects
 				(font
@@ -1078,7 +954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 100.33 0)
 			(effects
 				(font
@@ -1105,16 +981,206 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "5dfe5f69-de00-4bcc-9ec3-b09eca18913c")
+			(uuid "8ec8d59b-4e55-404f-9a87-14e8c3240fbe")
 		)
 		(pin "2"
-			(uuid "8e809c4e-9563-483e-aecf-0bb28d7ee900")
+			(uuid "b77b624a-7584-458d-9d10-e2f0298f3c6e")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "C61")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "C68")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "C114")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "C138")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f4d4fc4-137a-4a6b-bc51-1420591fd196")
+		(property "Reference" "#PWR078"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c20115bc-765a-4252-a82f-80c5b666ed27")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "#PWR0189")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "#PWR0224")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb2accc-a86c-4189-a58e-b46b2efeebff")
+		(property "Reference" "C69"
+			(at 158.75 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uf"
+			(at 158.75 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b85aab-3928-4b0c-a1ab-da01543b8f96")
+		)
+		(pin "2"
+			(uuid "07af2dee-385e-49c0-bcb1-d6f1d1fd6b72")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "C69")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "C115")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "C139")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -1129,8 +1195,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "915ed905-5d22-4c3f-bf81-0674fbd8bf4a")
-		(property "Reference" "PS6"
+		(uuid "6ed50cf4-5ef2-479a-bf89-29074e9f7b15")
+		(property "Reference" "PS11"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -1275,34 +1341,146 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
-			(uuid "f14e6f79-c030-4eb9-bd25-3e60785e7dd2")
+			(uuid "23a1c245-9c24-46a9-858a-32666286bb12")
 		)
 		(pin "8"
-			(uuid "e34ceefc-9136-4cf8-aab3-8281a0856a08")
+			(uuid "6719b541-5b2a-41bd-9c7d-d1df0161d434")
 		)
 		(pin "6"
-			(uuid "d0f8b268-59b7-4a4e-ab8a-866578bddbd8")
+			(uuid "5a21f118-77fb-4910-8ceb-99cadfd8738d")
 		)
 		(pin "3"
-			(uuid "6b1a296b-9c78-48b2-827c-3dc4103a1880")
+			(uuid "d444c0a9-9e88-4b6d-95b1-01cf1fa83190")
 		)
 		(pin "2"
-			(uuid "99997944-f654-4fb9-ab98-021b66ec82e4")
+			(uuid "7d33a8b6-b66d-488a-b64f-2c521e407c80")
 		)
 		(pin "4"
-			(uuid "8b5a3e61-7732-4366-9bea-42e2f3c681ab")
+			(uuid "2dca3fb7-3b14-4720-97bf-9a2f3aa5ca14")
 		)
 		(pin "5"
-			(uuid "2cdfbad5-d9a9-47e1-a39f-648f05c7e39b")
+			(uuid "bc4af779-0d23-4dc8-9d9f-d6b0acb67981")
 		)
 		(pin "1"
-			(uuid "94c0bbee-5646-4ae2-9a5b-5b669a59bd92")
+			(uuid "be2f184f-9a0a-4a84-a954-b67554d8b339")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "PS6")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "PS11")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "PS13")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "PS17")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "PS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ebc5fe-87bd-4e4e-80be-6d7e5b4fea70")
+		(property "Reference" "C67"
+			(at 92.71 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uf"
+			(at 92.71 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 89.8652 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fafc0491-52d5-41f1-b1b6-381b887d4a24")
+		)
+		(pin "2"
+			(uuid "5f4b962b-ab89-4235-b6b4-c8f69fb15810")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "C67")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "C113")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "C137")
+					(unit 1)
+				)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -1317,8 +1495,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa626a62-75b4-4276-9299-379da9d70cbf")
-		(property "Reference" "C40"
+		(uuid "a097c059-6f4f-4329-afe5-e7d2514f3a19")
+		(property "Reference" "C70"
 			(at 170.18 95.2499 0)
 			(effects
 				(font
@@ -1336,7 +1514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 167.3352 100.33 0)
 			(effects
 				(font
@@ -1363,86 +1541,37 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "9b43ceb7-f44e-4935-8643-2aaf5df04a57")
+			(uuid "ed7b62c0-beb5-4d70-a6f7-e975fd9a3099")
 		)
 		(pin "2"
-			(uuid "fb3b6063-577e-4f2d-b4b4-a61113935af8")
+			(uuid "c3bb818a-07f4-46bf-be2c-83d30717ca3d")
 		)
 		(instances
 			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "C40")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/8c2382ff-db29-4c49-8484-0f26b82282c2"
+					(reference "C70")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 154.94 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eff4da3f-8a92-4d23-aa4b-bd8529ebcf82")
-		(property "Reference" "C39"
-			(at 158.75 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/8821cb9d-826b-46ea-a4b0-096cc3dd800f/cf656899-5e10-4d7d-a034-78bbc07a41e7"
+					(reference "C116")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uf"
-			(at 158.75 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/94fee228-5462-46f6-ad6c-1e47c0f1b343/f872ad55-a9da-44cf-ae79-afc2db1e1edb"
+					(reference "C140")
+					(unit 1)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.9052 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 154.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca5553cf-e669-4f91-a8b9-9d17e27fea5b")
-		)
-		(pin "2"
-			(uuid "4464fd56-2583-4a01-8ff4-0dabf8259310")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/346f5924-dba7-4713-b6ae-424e3864a2ab"
-					(reference "C39")
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/86d69f20-72a8-480c-899a-1cc522974f16/044ed215-894f-4fc1-8dec-169dde83377a"
+					(reference "C82")
 					(unit 1)
 				)
 			)

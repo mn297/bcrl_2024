@@ -579,6 +579,84 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -656,24 +734,28 @@
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
-      "74d0f335-4d3b-4aa7-8bba-06f11ca9d6fc",
-      "Tx_RPi4_HAT_board1"
+      "0a24f7fc-6b6d-48f0-a789-c2c91d71134f",
+      "Rx_RPi4_HAT_board1"
     ],
     [
-      "1c912a62-8b28-44a0-a8d6-d1fa64810589",
-      "PQC50-48-S5-O_EMC_trimmed_1"
+      "db6c32bf-58d8-4a18-acc2-3e047a745caa",
+      "IND108W_EMC_8V_6"
     ],
     [
-      "1e3d0bec-a1c5-46e6-a615-6cb81279a2c0",
-      "PQC50-48-S5-O_EMC_trimmed_2"
+      "d6620691-1609-4ee8-9c2e-7d011fc7c1c7",
+      "IND108W_EMC_8V_7"
     ],
     [
-      "f2027e0f-ee9c-4232-9dcf-049410f18506",
-      "PQC50-48-S5-O_EMC_trimmed_3"
+      "35735652-41f9-40c2-999e-f40531ec697d",
+      "IND108W_EMC_8V_8"
     ],
     [
-      "b60d1de6-dd97-4f0c-b2ed-88bed818a514",
-      "PQC50-48-S5-O_EMC_trimmed_4"
+      "2307144c-2371-467e-ae9f-d6e6fb6efd6e",
+      "IND108W_EMC_8V_9"
+    ],
+    [
+      "8c2382ff-db29-4c49-8484-0f26b82282c2",
+      "EHHD010A0B41-HZ1"
     ],
     [
       "13fbb956-887b-499a-a3e4-266e83b0f717",
@@ -688,16 +770,16 @@
       "PDQ10-Q48-S5-D_EMC_13"
     ],
     [
-      "3e577bd7-c793-4d4a-9991-32d1d0bab64c",
-      "Rx_RPi4_HAT_board1"
+      "7c0690db-3f5f-49cd-a851-a45f0e3dad70",
+      "Tx_RPi4_HAT_board1"
     ],
     [
       "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
       "PDQE15-Q48-D24-D_EMC_1"
     ],
     [
-      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
-      "PDQE15-Q48-D24-D_EMC_1"
+      "74a3158c-0b47-46ec-a68c-98786ff4f376",
+      "PDQ10-Q48-S5-D_EMC_8"
     ],
     [
       "74a3158c-0b47-46ec-a68c-98786ff4f376",
@@ -708,8 +790,8 @@
       "PDQ10-Q48-S5-D_EMC_14"
     ],
     [
-      "7fa9e77c-83ad-4fe6-9f79-2576b43c7f59",
-      "PDQ10-Q48-S5-D_EMC_7"
+      "90beb04a-7ddb-4e1c-b4d9-8871b13e8ee0",
+      "PDQE15-Q48-D24-D_EMC_1"
     ],
     [
       "d4fb83f6-a2b2-45cb-878f-309a813c4a52",
@@ -720,12 +802,12 @@
       "PDQ10-Q48-S5-D_EMC_1"
     ],
     [
-      "74a3158c-0b47-46ec-a68c-98786ff4f376",
-      "PDQ10-Q48-S5-D_EMC_8"
+      "6b1ee611-d3cb-4af2-9a39-2d0e5a34be30",
+      "IND108W_EMC_6.5V_3"
     ],
     [
-      "7fa9e77c-83ad-4fe6-9f79-2576b43c7f59",
-      "PDQ10-Q48-S5-D_EMC_7"
+      "cf656899-5e10-4d7d-a034-78bbc07a41e7",
+      "EHHD010A0B41-HZ2"
     ],
     [
       "2a7cea7c-a24f-43f7-a198-0fd672fbec83",
@@ -736,44 +818,44 @@
       "PDQ10-Q48-S5-D_EMC_17"
     ],
     [
-      "b29e1366-5da1-4516-aa77-108c7814c777",
-      "PQC50-48-S5-O_EMC_trimmed_16"
+      "044ed215-894f-4fc1-8dec-169dde83377a",
+      "EHHD010A0B41-HZ5"
     ],
     [
-      "97e76363-e7fd-472b-9636-d1f9606beb34",
-      "PQC50-48-S5-O_EMC_trimmed_17"
+      "5b3cea8f-cfa6-439c-b179-91d0f6a8ffdc",
+      "IND108W_EMC_6.5V_2"
     ],
     [
-      "76fe1f83-0aea-4b0d-af02-d863402aee82",
-      "PQC50-48-S5-O_EMC_trimmed_18"
-    ],
-    [
-      "7144e7b6-6585-4c90-a766-edce669a0a41",
-      "PQC50-48-S5-O_EMC_trimmed_19"
-    ],
-    [
-      "31d71dc9-45aa-45ba-92ba-a0ae51429eb2",
-      "RxBFN-16C1"
-    ],
-    [
-      "46bb1ce7-0e0a-47ff-a99f-4306fd96427b",
-      "PQC50-48-S5-O_EMC_trimmed_15"
+      "37ddebee-6231-4dcb-88e8-6be1d3b1155a",
+      "IND108W_EMC_6.5V_1"
     ],
     [
       "4945c6e4-0bf4-4350-a163-7fe020459ddd",
       "PDQ10-Q48-S5-D_EMC_2"
     ],
     [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
+      "6102f0c4-a7ad-47b5-85fb-d278ab75d32c",
+      "IND108W_EMC_6.5V_4"
     ],
     [
-      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
-      "PQC50-48-S5-O_EMC_trimmed_10"
+      "f872ad55-a9da-44cf-ae79-afc2db1e1edb",
+      "EHHD010A0B41-HZ3"
     ],
     [
-      "88b423f8-1d5c-458a-91c2-1d002d75760e",
-      "RxBFN-16F1"
+      "3654604d-c4fd-4fa0-8e17-f710bb28f6f5",
+      "IND108W_EMC_8V_10"
+    ],
+    [
+      "a60a981a-79ab-4865-afeb-9bc8b41f32c6",
+      "IND108W_EMC_8V_11"
+    ],
+    [
+      "c07688cf-de25-4d49-bd75-d6af61374a07",
+      "IND108W_EMC_8V_5"
+    ],
+    [
+      "d0c539f4-7425-4a31-a7a5-2a043c663edc",
+      "IND108W_EMC_8V_12"
     ],
     [
       "396cd466-5b94-4a70-b29a-66669aea6a97",
@@ -784,44 +866,16 @@
       "Rx_Eth_Switch"
     ],
     [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "346f5924-dba7-4713-b6ae-424e3864a2ab",
-      "EHHD010A0B41-HZ_1"
-    ],
-    [
       "33e29609-c49f-40d6-8d19-845b9c0d1d83",
       "fan_20x"
     ],
     [
-      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
-      "PQC50-48-S5-O_EMC_trimmed_10"
+      "8821cb9d-826b-46ea-a4b0-096cc3dd800f",
+      "BFN"
     ],
     [
-      "e384cb2d-9038-4e37-9308-767fd13a8709",
-      "TxBFN-16C1"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
-      "PQC50-48-S5-O_EMC_trimmed_10"
-    ],
-    [
-      "426efd53-d226-49b5-a0e5-5129bb07337b",
-      "TxBFN-16F1"
-    ],
-    [
-      "acd3b3ab-976d-4699-bf54-77b01a76c029",
-      "PQC50-48-S5-O_EMC_trimmed_9"
-    ],
-    [
-      "f3b75377-9537-4793-adbe-0e32b94ca2d1",
-      "PQC50-48-S5-O_EMC_trimmed_10"
+      "d38a281a-ebcf-4be6-8e3c-19a868b0087f",
+      "RPi_HAT"
     ]
   ],
   "text_variables": {}

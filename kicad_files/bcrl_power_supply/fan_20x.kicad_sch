@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 72.39 81.28)
+			(xy 77.47 81.28) (xy 69.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -509,213 +509,134 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 106.68) (xy 134.62 106.68)
+			(xy 77.47 100.33) (xy 69.85 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7314dee6-e591-4184-b4c1-beae2ec325d8")
+		(uuid "5236e278-6bab-4afa-adb7-0c5cefe6410d")
 	)
 	(wire
 		(pts
-			(xy 161.29 106.68) (xy 168.91 106.68)
+			(xy 77.47 138.43) (xy 69.85 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a7d219f-9abf-4939-a40b-812b43f39602")
+		(uuid "a2a0bba9-882f-4939-8c21-4e9e2fd7fbb3")
 	)
 	(wire
 		(pts
-			(xy 77.47 128.27) (xy 72.39 128.27)
+			(xy 77.47 118.11) (xy 69.85 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80dcd2cd-be61-41fb-8c23-a9f46f07137b")
+		(uuid "c2fbcdf1-b237-42c4-ae47-f605d20ff8da")
 	)
-	(wire
-		(pts
-			(xy 77.47 113.03) (xy 72.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "857fb889-84aa-48b6-85f9-d9406f27fc61")
-	)
-	(wire
-		(pts
-			(xy 77.47 96.52) (xy 72.39 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb75e7a0-63f9-4581-97cb-5a54332c5ee1")
-	)
-	(label "V_FAN"
-		(at 72.39 96.52 0)
+	(global_label "+12V_1"
+		(shape input)
+		(at 69.85 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "09471887-afeb-4a63-9c5f-69a14e4be7f6")
-	)
-	(label "V_FAN"
-		(at 72.39 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "280a81ce-232a-4eef-a06b-54b9f9d85099")
-	)
-	(label "V_FAN"
-		(at 168.91 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "357f58c8-339e-44eb-91d6-4b1f271f97b2")
-	)
-	(label "FAN_CTL"
-		(at 119.38 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78ece8a8-6000-4f7c-81f7-4c29343df45a")
-	)
-	(label "V_FAN"
-		(at 72.39 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f563a31-b1f8-4c35-8872-41613515b60c")
-	)
-	(label "V_FAN"
-		(at 72.39 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee7f6de0-6f9a-442d-bed2-1a71257c54b4")
-	)
-	(symbol
-		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 77.47 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fbb8704-75a2-40ff-bb9b-1ef565194800")
-		(property "Reference" "J72"
-			(at 91.44 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OSTVN02A150"
-			(at 91.44 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 67.31 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 96.52 0)
+		(uuid "2fed38fa-f919-468f-aff5-b7b7c83d67d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 77.47 96.52 0)
+	)
+	(global_label "+12V_2"
+		(shape input)
+		(at 69.85 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "452e0005-0de5-431a-8bd2-9ba8f7e134fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f3062b5b-1f08-4c04-b961-f68b2b944aa7")
+	)
+	(global_label "+12V_1"
+		(shape input)
+		(at 69.85 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
-		(pin "1"
-			(uuid "0ca729b7-486b-4293-a315-9200dec71fc8")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J72")
-					(unit 1)
+		(uuid "d37a9188-0055-49dd-9a54-058d8ce99047")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+12V_2"
+		(shape input)
+		(at 69.85 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb132fbe-bb4f-410b-aaee-de0727b09fea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.6077 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 130.81 270)
+		(at 77.47 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e0438ba-db6c-486d-9143-c3d52609a24b")
-		(property "Reference" "#PWR0258"
-			(at 71.12 130.81 0)
+		(uuid "45e9884c-2b8e-4877-91b4-440a245a8839")
+		(property "Reference" "#PWR0183"
+			(at 71.12 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +645,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 130.81 90)
+			(at 73.66 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -733,7 +654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 130.81 0)
+			(at 77.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 130.81 0)
+			(at 77.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 130.81 0)
+			(at 77.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,134 +681,67 @@
 			)
 		)
 		(pin "1"
-			(uuid "301f0fae-b555-419d-be64-ad9ba9c99da3")
+			(uuid "10dcb65c-aafd-443a-b249-f464ba606576")
 		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0258")
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 77.47 115.57 270)
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 77.47 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e4249b6-6f62-4268-938c-31c8d92fd76e")
-		(property "Reference" "#PWR0257"
+		(uuid "8510ef76-8afb-41d6-9048-7c0c4f420f0b")
+		(property "Reference" "J47"
+			(at 91.44 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTVN02A150"
+			(at 91.44 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 67.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
 			(at 71.12 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7249d8a-d391-42f1-9dbe-2a1b5c2154d9")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0257")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 77.47 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "490767ab-f90d-4102-a243-a179b2fb97da")
-		(property "Reference" "J74"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OSTVN02A150"
-			(at 91.44 130.81 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 67.31 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 77.47 128.27 0)
+			(at 77.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +750,16 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 77.47 128.27 0)
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 77.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,15 +768,239 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a3cc6f4-489e-439a-b62a-302b36c1ed12")
+			(uuid "45a638cb-f272-4a61-a46f-2d2abc6e8bed")
 		)
 		(pin "1"
-			(uuid "817a99e8-ecdc-4199-b8a7-9e4f9e7a33f8")
+			(uuid "f71d7ad6-5ccd-4309-ae0f-e16e87241b9d")
 		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J74")
+					(reference "J47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 77.47 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b4a2617-80ec-42ff-a6ac-4a4806d573b1")
+		(property "Reference" "J48"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OSTVN02A150"
+			(at 91.44 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4fa8d5eb-a536-47df-bc50-84c36f71f027")
+		)
+		(pin "1"
+			(uuid "5c60e5b1-ac57-4124-bda7-58a03ce5179b")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "J48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bacbfb56-fbab-4420-87b8-b63745a5b021")
+		(property "Reference" "#PWR0182"
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03ee8546-af9a-441e-9100-0a8eb2a7f5d2")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be51258d-8abd-4a12-b680-187a8129e635")
+		(property "Reference" "#PWR0181"
+			(at 71.12 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e464ec0-c996-46d1-9872-d882015e6739")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -929,7 +1016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de65945b-4528-4215-abef-3dd029901859")
-		(property "Reference" "#PWR0255"
+		(property "Reference" "#PWR0221"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -980,155 +1067,7 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0255")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
-		(at 77.47 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df5f2ace-ec3e-441f-a714-be529aa31220")
-		(property "Reference" "J73"
-			(at 91.44 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OSTVN02A150"
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 67.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 77.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bcb2cac1-18c5-47f9-bdac-1091cf63ee7b")
-		)
-		(pin "1"
-			(uuid "44fad6a4-3899-492c-bb4e-a4d1db4a3c9e")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 99.06 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2e1487f-686b-4921-9d3e-4a6d4b86ae95")
-		(property "Reference" "#PWR0256"
-			(at 71.12 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 73.66 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1137e8-f594-4f5a-a3cf-84d3e58f2b48")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "#PWR0256")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e908307b-6bf6-4286-98cb-1191c37db129")
-		(property "Reference" "J71"
+		(property "Reference" "J45"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -1200,6 +1139,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab13ad54-9829-4a69-91f8-0e433528e804")
 		)
@@ -1209,66 +1157,98 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(reference "J71")
+					(reference "J45")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet
-		(at 134.62 101.6)
-		(size 26.67 10.16)
+	(symbol
+		(lib_id "2024-02-14_22-22-09:OSTVN02A150")
+		(at 77.47 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "46bb1ce7-0e0a-47ff-a99f-4306fd96427b")
-		(property "Sheetname" "PQC50-48-S5-O_EMC_trimmed_15"
-			(at 134.62 100.8884 0)
+		(uuid "f6b36ef7-5e47-4c5c-bd31-d208a3065ad5")
+		(property "Reference" "J46"
+			(at 91.44 100.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PQC50-48-S5-O_EMC_trimmed.kicad_sch"
-			(at 134.62 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+VO" output
-			(at 161.29 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "af5f26c7-9083-4b1d-bdb2-462713c7fe59")
-		)
-		(pin "CTRL" input
-			(at 134.62 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
-			(uuid "79d537c1-4901-4719-a3e0-6a784b3c8a60")
+		)
+		(property "Value" "OSTVN02A150"
+			(at 91.44 102.87 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bc7ddff-6fba-4bb8-aab1-3fe54716ede3")
+		)
+		(pin "1"
+			(uuid "d11495ff-a130-4e75-abb8-e9fa2bd3ddf6")
 		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/33e29609-c49f-40d6-8d19-845b9c0d1d83"
-					(page "32")
+					(reference "J46")
+					(unit 1)
 				)
 			)
 		)

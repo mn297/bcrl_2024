@@ -1020,7 +1020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1688b8fc-c3eb-49b4-885d-2f374ba848f3")
-		(property "Reference" "J69"
+		(property "Reference" "J43"
 			(at 82.55 116.84 0)
 			(effects
 				(font
@@ -1076,6 +1076,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0afe0ade-fd0b-48b1-bb22-ce3280be11ed")
 		)
@@ -1085,11 +1094,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "J69")
+					(reference "J43")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "J67")
+					(reference "J41")
 					(unit 1)
 				)
 			)
@@ -1106,7 +1115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "335f3fba-801a-4009-8414-9b3abdaed5c6")
-		(property "Reference" "D24"
+		(property "Reference" "D31"
 			(at 90.4875 92.71 0)
 			(effects
 				(font
@@ -1158,6 +1167,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d78e1ce-c4e8-4e36-a426-6f53e117b45b")
 		)
@@ -1167,11 +1185,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "D24")
+					(reference "D31")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "D25")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -1187,7 +1205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d02207c-c2dd-442d-98a1-c25d2ec0002e")
-		(property "Reference" "#PWR0247"
+		(property "Reference" "#PWR0213"
 			(at 62.23 119.38 0)
 			(effects
 				(font
@@ -1238,11 +1256,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "#PWR0247")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "#PWR0244")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -1258,7 +1276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "981a7baf-f0a5-4ab0-991b-85914a99921b")
-		(property "Reference" "J70"
+		(property "Reference" "J44"
 			(at 78.74 130.175 0)
 			(effects
 				(font
@@ -1312,6 +1330,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 76.2 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d36aa23-9a7d-4cf9-bdb3-832c87fa5865")
 		)
@@ -1321,11 +1348,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "J70")
+					(reference "J44")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "J68")
+					(reference "J42")
 					(unit 1)
 				)
 			)
@@ -1342,7 +1369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca2cc38-bd09-4e1f-b99b-60b8533db7bf")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR0212"
 			(at 106.68 99.06 0)
 			(effects
 				(font
@@ -1393,11 +1420,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "#PWR0246")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "#PWR0249")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -1413,7 +1440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc59716e-01f5-43dc-9ca0-b4d914b02f0b")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR0214"
 			(at 64.77 132.715 0)
 			(effects
 				(font
@@ -1464,11 +1491,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "#PWR0248")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "#PWR0245")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -1485,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e50f5a-32e9-4a6d-b3e4-a90522e2c4e7")
-		(property "Reference" "R48"
+		(property "Reference" "R61"
 			(at 96.52 92.71 90)
 			(effects
 				(font
@@ -1537,6 +1564,15 @@
 				(hide yes)
 			)
 		)
+		(property "SNAPEDA_PN" ""
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5affe093-3bfc-4acd-a9e3-7b3856b337a4")
 		)
@@ -1546,11 +1582,11 @@
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/396cd466-5b94-4a70-b29a-66669aea6a97"
-					(reference "R48")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db/66481d9d-6957-47e9-a2b4-eda0119b346e"
-					(reference "R49")
+					(reference "R62")
 					(unit 1)
 				)
 			)

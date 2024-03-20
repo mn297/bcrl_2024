@@ -1,0 +1,9 @@
+Manufacturer=OmniOn Power
+PartNumber=IND108W
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=9
+Version=2.5
+Released=2024-03-19 09:10:21
+Downloaded=2024-03-19 14:51:21
+3D=Y
