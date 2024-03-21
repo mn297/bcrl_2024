@@ -763,9 +763,9 @@
 		)
 		(symbol "power:+48V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -863,8 +863,8 @@
 			(symbol "+48V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+48V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1010,6 +1010,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 29.21) (xy 153.67 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0278ed4a-4fb8-4834-a507-24ec27d42ef9")
+	)
+	(wire
+		(pts
 			(xy 41.91 144.78) (xy 67.31 144.78)
 		)
 		(stroke
@@ -1030,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 39.37 34.29)
+			(xy 57.15 34.29) (xy 66.04 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 24.13) (xy 39.37 24.13)
+			(xy 57.15 24.13) (xy 66.04 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1130,7 +1140,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 36.83) (xy 39.37 36.83)
+			(xy 123.19 33.02) (xy 128.27 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def45204-d629-4beb-b54b-6322c82ba09f")
+	)
+	(wire
+		(pts
+			(xy 57.15 36.83) (xy 66.04 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 26.67) (xy 39.37 26.67)
+			(xy 57.15 26.67) (xy 66.04 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1169,6 +1189,72 @@
 			(justify left bottom)
 		)
 		(uuid "f20086f6-d97b-48dc-888e-8c444e9810a2")
+	)
+	(global_label "+48V_unfiltered"
+		(shape input)
+		(at 57.15 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c07f5db-2f57-4ffb-b492-a1d2a9bd267b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9854 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+48V_unfiltered"
+		(shape input)
+		(at 123.19 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aad7f65b-e943-4ba6-aa2a-3a595e4d59c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.0254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+48V_unfiltered"
+		(shape input)
+		(at 57.15 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b3fcf7-300f-41fe-a938-0b23296ebc78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.9854 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1332,7 +1418,7 @@
 	)
 	(symbol
 		(lib_id "BCRL_power_supply:OSTVN02A150")
-		(at 39.37 34.29 0)
+		(at 66.04 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1341,7 +1427,7 @@
 		(fields_autoplaced yes)
 		(uuid "221e84c3-893a-4a42-8a49-60340926ce28")
 		(property "Reference" "J2"
-			(at 53.34 34.29 0)
+			(at 80.01 34.29 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1350,7 +1436,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 53.34 36.83 0)
+			(at 80.01 36.83 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1359,7 +1445,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 29.21 29.21 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 31.75 0)
+			(at 59.69 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1465,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 34.29 0)
+			(at 66.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1474,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 39.37 34.29 0)
+			(at 66.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1483,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 39.37 34.29 0)
+			(at 66.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1492,7 @@
 			)
 		)
 		(property "rating" ""
-			(at 39.37 34.29 0)
+			(at 66.04 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,140 +1510,6 @@
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 30.48 24.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ad2f28f-d83d-4849-9599-9d44afbdcc23")
-		(property "Reference" "#PWR01"
-			(at 34.29 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 31.75 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5bc2d4a9-0c46-4d81-8571-815a039a8f4c")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+48V")
-		(at 30.48 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5648c4cf-e305-47e2-b1c2-454f41a113aa")
-		(property "Reference" "#PWR03"
-			(at 34.29 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+48V"
-			(at 31.75 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 30.48 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e41f8a9-add8-4b67-b3d6-40f4d670d862")
-		)
-		(instances
-			(project "bcrl_power_supply"
-				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1753,7 +1705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 26.67 270)
+		(at 57.15 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1762,7 +1714,7 @@
 		(fields_autoplaced yes)
 		(uuid "74f04d59-f27f-4601-84d1-d64ee28f29a8")
 		(property "Reference" "#PWR02"
-			(at 24.13 26.67 0)
+			(at 50.8 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 26.67 90)
+			(at 58.42 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 26.67 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +1741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 26.67 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 26.67 0)
+			(at 57.15 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1772,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 36.83 270)
+		(at 57.15 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1829,7 +1781,7 @@
 		(fields_autoplaced yes)
 		(uuid "8989130f-dfea-4490-8d89-b0df5bef0ef4")
 		(property "Reference" "#PWR04"
-			(at 24.13 36.83 0)
+			(at 50.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 36.83 90)
+			(at 58.42 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 36.83 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 36.83 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1817,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 36.83 0)
+			(at 57.15 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2030,7 @@
 	)
 	(symbol
 		(lib_id "BCRL_power_supply:OSTVN02A150")
-		(at 39.37 24.13 0)
+		(at 66.04 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2087,7 +2039,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a0cc14f-18c8-4839-8c72-2c858f747f02")
 		(property "Reference" "J1"
-			(at 53.34 24.13 0)
+			(at 80.01 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2096,7 +2048,7 @@
 			)
 		)
 		(property "Value" "OSTVN02A150"
-			(at 53.34 26.67 0)
+			(at 80.01 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2105,7 +2057,7 @@
 			)
 		)
 		(property "Footprint" "BCRL_power_supply:CONN_OSTVN02A150_OST"
-			(at 29.21 19.05 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 21.59 0)
+			(at 59.69 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2125,7 +2077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 24.13 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2086,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 39.37 24.13 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2095,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" ""
-			(at 39.37 24.13 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2104,7 @@
 			)
 		)
 		(property "rating" ""
-			(at 39.37 24.13 0)
+			(at 66.04 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,6 +2448,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:+48V")
+		(at 153.67 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e30556ce-05c7-4367-b198-543045281125")
+		(property "Reference" "#PWR0162"
+			(at 153.67 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+48V"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+48V\""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61864325-4850-479e-a38f-335988e514e2")
+		)
+		(instances
+			(project "bcrl_power_supply"
+				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 157.48 52.07)
 		(size 21.59 15.24)
@@ -2546,7 +2564,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "396cd466-5b94-4a70-b29a-66669aea6a97")
-		(property "Sheetname" "Tx_Eth_Switch"
+		(property "Sheetname" "Eth_Switch"
 			(at 121.92 50.0884 0)
 			(effects
 				(font
@@ -2573,8 +2591,8 @@
 		)
 	)
 	(sheet
-		(at 121.92 66.04)
-		(size 22.86 5.08)
+		(at 128.27 26.67)
+		(size 17.78 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2583,9 +2601,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "66481d9d-6957-47e9-a2b4-eda0119b346e")
-		(property "Sheetname" "Rx_Eth_Switch"
-			(at 121.92 65.3284 0)
+		(uuid "60707b28-309c-4e42-8a0b-5f9a9fcd870e")
+		(property "Sheetname" "FLT007A0Z_EMC"
+			(at 128.27 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,8 +2611,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Eth_Switch.kicad_sch"
-			(at 121.92 71.7046 0)
+		(property "Sheetfile" "FLT007A0Z_EMC.kicad_sch"
+			(at 128.27 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,10 +2620,30 @@
 				(justify left top)
 			)
 		)
+		(pin "+48V_unfiltered" input
+			(at 128.27 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20528d37-bfd6-4544-a23b-512297d1bc7e")
+		)
+		(pin "+48V_filtered" input
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a3cc8ecd-316d-44bf-8d53-8a4d3f00c050")
+		)
 		(instances
 			(project "bcrl_power_supply"
 				(path "/77f0f57c-9586-4625-9281-fa8cbd8015db"
-					(page "44")
+					(page "37")
 				)
 			)
 		)

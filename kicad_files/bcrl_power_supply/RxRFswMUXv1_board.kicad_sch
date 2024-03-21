@@ -4083,7 +4083,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 259.3975 101.6 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 260.6675 165.1 0)
 			(effects
 				(font
@@ -4409,7 +4409,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 254.3175 22.86 0)
 			(effects
 				(font
@@ -5529,7 +5529,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 260.6675 123.19 0)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 259.3975 144.78 0)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 255.5875 63.5 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 255.5875 82.55 0)
 			(effects
 				(font
@@ -11600,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 175.5775 153.67 0)
 			(effects
 				(font
@@ -11829,7 +11829,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED 0603"
 			(at 255.5875 44.45 0)
 			(effects
 				(font

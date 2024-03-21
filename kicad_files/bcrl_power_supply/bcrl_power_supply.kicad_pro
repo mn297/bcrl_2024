@@ -6,14 +6,14 @@
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -24,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -114,15 +114,15 @@
         "min_copper_edge_clearance": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.7999999999999999,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -662,7 +662,7 @@
           "group_by": false,
           "label": "rating",
           "name": "rating",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -740,6 +740,10 @@
       "PDQ10-Q48-S3-D_EMC_1"
     ],
     [
+      "cf0e2c0b-fd3e-4094-bc6a-217321274aee",
+      "PDQ10-Q48-S5-D_EMC_18"
+    ],
+    [
       "db6c32bf-58d8-4a18-acc2-3e047a745caa",
       "IND108W_EMC_8V_6"
     ],
@@ -760,8 +764,8 @@
       "EHHD010A0B41-HZ1"
     ],
     [
-      "13fbb956-887b-499a-a3e4-266e83b0f717",
-      "PDQ10-Q48-S5-D_EMC_13"
+      "4ae7f17d-3ea4-4f06-8b49-de2d8b431673",
+      "EHHD010A0B41-HZ2"
     ],
     [
       "86d69f20-72a8-480c-899a-1cc522974f16",
@@ -786,10 +790,6 @@
     [
       "6b1ee611-d3cb-4af2-9a39-2d0e5a34be30",
       "IND108W_EMC_6.5V_3"
-    ],
-    [
-      "cf656899-5e10-4d7d-a034-78bbc07a41e7",
-      "EHHD010A0B41-HZ2"
     ],
     [
       "2a7cea7c-a24f-43f7-a198-0fd672fbec83",
@@ -840,6 +840,10 @@
       "IND108W_EMC_8V_11"
     ],
     [
+      "60707b28-309c-4e42-8a0b-5f9a9fcd870e",
+      "FLT007A0Z_EMC"
+    ],
+    [
       "c07688cf-de25-4d49-bd75-d6af61374a07",
       "IND108W_EMC_8V_5"
     ],
@@ -849,11 +853,7 @@
     ],
     [
       "396cd466-5b94-4a70-b29a-66669aea6a97",
-      "Tx_Eth_Switch"
-    ],
-    [
-      "66481d9d-6957-47e9-a2b4-eda0119b346e",
-      "Rx_Eth_Switch"
+      "Eth_Switch"
     ],
     [
       "33e29609-c49f-40d6-8d19-845b9c0d1d83",
