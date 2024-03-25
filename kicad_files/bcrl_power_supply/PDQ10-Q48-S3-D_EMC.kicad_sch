@@ -770,6 +770,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "PDQ10-Q48-S3-D"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "124f57cb-354d-430f-bc90-fc6cf2cc8a88")
 		)
@@ -816,7 +825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" " 4.7u"
 			(at 85.09 93.091 0)
 			(effects
 				(font
@@ -825,7 +834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 82.2452 96.52 0)
 			(effects
 				(font
@@ -879,6 +888,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "GRM31CC72A475KE11L "
+			(at 81.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8390393-5ed3-4ba7-b2b8-2172238bacd6")
 		)
@@ -912,7 +930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" " 4.7u"
 			(at 64.77 92.71 0)
 			(effects
 				(font
@@ -921,7 +939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 61.9252 96.52 0)
 			(effects
 				(font
@@ -967,6 +985,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "GRM31CC72A475KE11L "
 			(at 60.96 92.71 0)
 			(effects
 				(font

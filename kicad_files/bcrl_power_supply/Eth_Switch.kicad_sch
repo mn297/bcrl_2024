@@ -1210,6 +1210,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0afe0ade-fd0b-48b1-bb22-ce3280be11ed")
 		)
@@ -1337,7 +1346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -1365,6 +1374,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 153.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 153.67 96.52 0)
 			(effects
 				(font
@@ -1500,7 +1518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -1528,6 +1546,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 82.55 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 82.55 88.9 0)
 			(effects
 				(font
@@ -1724,6 +1751,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 50.8 118.11 0)
 			(effects
 				(font
@@ -2159,7 +2195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -2187,6 +2223,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -2255,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 82.55 96.52 0)
 			(effects
 				(font
@@ -2283,6 +2328,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 82.55 96.52 0)
 			(effects
 				(font

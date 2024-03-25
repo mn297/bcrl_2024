@@ -998,7 +998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 122.8852 111.76 0)
 			(effects
 				(font
@@ -1044,6 +1044,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 121.92 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 121.92 107.95 0)
 			(effects
 				(font
@@ -1107,7 +1116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 135.5852 111.76 0)
 			(effects
 				(font
@@ -1153,6 +1162,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 134.62 107.95 0)
 			(effects
 				(font
@@ -1331,6 +1349,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "IND108W"
+			(at 128.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "541a0b81-a2c5-4948-8c12-89b396c98d04")
 		)
@@ -1407,7 +1434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 162.2552 109.22 0)
 			(effects
 				(font
@@ -1453,6 +1480,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 161.29 105.41 0)
 			(effects
 				(font
@@ -1595,7 +1631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 174.9552 109.22 0)
 			(effects
 				(font
@@ -1641,6 +1677,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -1883,7 +1928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -1911,6 +1956,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPJ123 "
 			(at 102.87 85.09 0)
 			(effects
 				(font
@@ -1974,7 +2028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 149.5552 109.22 0)
 			(effects
 				(font
@@ -2020,6 +2074,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 148.59 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -2083,7 +2146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 110.1852 111.76 0)
 			(effects
 				(font
@@ -2129,6 +2192,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" " C3216X5R1V226M160AC "
 			(at 109.22 107.95 0)
 			(effects
 				(font

@@ -776,6 +776,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45a638cb-f272-4a61-a46f-2d2abc6e8bed")
 		)
@@ -867,6 +876,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 77.47 138.43 0)
 			(effects
 				(font
@@ -1175,6 +1193,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab13ad54-9829-4a69-91f8-0e433528e804")
 		)
@@ -1266,6 +1293,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 77.47 100.33 0)
 			(effects
 				(font

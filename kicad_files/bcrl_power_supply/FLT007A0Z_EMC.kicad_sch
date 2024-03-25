@@ -718,6 +718,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "FLT007A0Z"
+			(at 123.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "bbf0bdae-1aff-40a0-9364-602798aa0707")
 		)
@@ -837,7 +846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 72.0852 91.44 0)
 			(effects
 				(font
@@ -865,6 +874,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "HMK316AC7225KL-TE "
 			(at 71.12 87.63 0)
 			(effects
 				(font
@@ -916,7 +934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 86.0552 91.44 0)
 			(effects
 				(font
@@ -944,6 +962,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 85.09 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "HMK316AC7225KL-TE "
 			(at 85.09 87.63 0)
 			(effects
 				(font
@@ -1129,7 +1156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 100.0252 91.44 0)
 			(effects
 				(font
@@ -1157,6 +1184,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 99.06 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "HMK316AC7225KL-TE "
 			(at 99.06 87.63 0)
 			(effects
 				(font

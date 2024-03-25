@@ -1500,6 +1500,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a42b3763-14f8-4e32-9547-b2fa172ea1ab")
 		)
@@ -2104,6 +2113,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 66.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 66.04 24.13 0)
 			(effects
 				(font

@@ -1130,7 +1130,16 @@
 				(hide yes)
 			)
 		)
-		(property "rating" ""
+		(property "rating" "50v"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "C1608X5R1H105K080DB "
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -1263,7 +1272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 158.75 97.7899 0)
 			(effects
 				(font
@@ -1272,7 +1281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 155.9052 100.33 0)
 			(effects
 				(font
@@ -1308,7 +1317,16 @@
 				(hide yes)
 			)
 		)
-		(property "rating" ""
+		(property "rating" "100v"
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "UCS2E470MHD1TO "
 			(at 154.94 96.52 0)
 			(effects
 				(font
@@ -1477,7 +1495,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey_Part_Number" ""
+		(property "DigiKey_Part_Number" "EHHD010A0B41-HZ"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -1659,7 +1677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "47u"
 			(at 92.71 97.7899 0)
 			(effects
 				(font
@@ -1668,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 89.8652 100.33 0)
 			(effects
 				(font
@@ -1704,7 +1722,16 @@
 				(hide yes)
 			)
 		)
-		(property "rating" ""
+		(property "rating" "100v"
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "UCS2E470MHD1TO "
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -1804,7 +1831,16 @@
 				(hide yes)
 			)
 		)
-		(property "rating" ""
+		(property "rating" "50v"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "C1608X5R1H105K080DB "
 			(at 166.37 96.52 0)
 			(effects
 				(font

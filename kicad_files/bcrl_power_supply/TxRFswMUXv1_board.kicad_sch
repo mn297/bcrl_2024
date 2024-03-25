@@ -3597,7 +3597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 264.16 64.77 0)
 			(effects
 				(font
@@ -3625,6 +3625,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 264.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 264.16 64.77 0)
 			(effects
 				(font
@@ -3753,6 +3762,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5104338-1 "
 			(at 119.38 34.29 0)
 			(effects
 				(font
@@ -3912,7 +3930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -3940,6 +3958,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 273.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 273.05 124.46 0)
 			(effects
 				(font
@@ -4141,7 +4168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 264.16 45.72 0)
 			(effects
 				(font
@@ -4169,6 +4196,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 264.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 264.16 45.72 0)
 			(effects
 				(font
@@ -4573,7 +4609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 273.05 166.37 0)
 			(effects
 				(font
@@ -4601,6 +4637,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 273.05 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 273.05 166.37 0)
 			(effects
 				(font
@@ -4669,7 +4714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -4697,6 +4742,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 270.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 270.51 24.13 0)
 			(effects
 				(font
@@ -4901,7 +4955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 271.78 146.05 0)
 			(effects
 				(font
@@ -4929,6 +4983,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 271.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 271.78 146.05 0)
 			(effects
 				(font
@@ -5131,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 187.96 153.67 0)
 			(effects
 				(font
@@ -5159,6 +5222,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 187.96 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 187.96 153.67 0)
 			(effects
 				(font
@@ -5622,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 271.78 45.72 0)
 			(effects
 				(font
@@ -5650,6 +5722,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 271.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 271.78 45.72 0)
 			(effects
 				(font
@@ -5778,6 +5859,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 119.38 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5104338-1 "
 			(at 119.38 63.5 0)
 			(effects
 				(font
@@ -6137,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 271.78 64.77 0)
 			(effects
 				(font
@@ -6165,6 +6255,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 271.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 271.78 64.77 0)
 			(effects
 				(font
@@ -6264,6 +6363,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 31.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 31.75 60.96 0)
 			(effects
 				(font
@@ -6399,7 +6507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -6427,6 +6535,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 264.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -6763,7 +6880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 271.78 83.82 0)
 			(effects
 				(font
@@ -6791,6 +6908,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 271.78 83.82 0)
 			(effects
 				(font
@@ -7062,6 +7188,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 31.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "daaa8f39-d183-4df2-91de-4b051bab1330")
 		)
@@ -7153,6 +7288,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 31.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 31.75 96.52 0)
 			(effects
 				(font
@@ -7260,6 +7404,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64e4c433-dfbb-414d-be81-528874f2f482")
 		)
@@ -7359,6 +7512,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 31.75 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0c2d0c82-fa61-40f2-8401-ea7c654ef6af")
 		)
@@ -7419,7 +7581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 262.89 24.13 0)
 			(effects
 				(font
@@ -7447,6 +7609,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 262.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 262.89 24.13 0)
 			(effects
 				(font
@@ -7515,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -7543,6 +7714,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 271.78 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "ESR03EZPF1001 "
 			(at 271.78 102.87 0)
 			(effects
 				(font
@@ -7910,7 +8090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -7938,6 +8118,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 264.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 264.16 102.87 0)
 			(effects
 				(font
@@ -8074,7 +8263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 265.43 124.46 0)
 			(effects
 				(font
@@ -8102,6 +8291,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 265.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 265.43 124.46 0)
 			(effects
 				(font
@@ -8230,6 +8428,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5104338-1 "
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -8428,6 +8635,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
+			(at 31.75 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "632aa4ad-3508-4a70-bc1b-e0973ec9139f")
 		)
@@ -8519,6 +8735,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 31.75 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 31.75 110.49 0)
 			(effects
 				(font
@@ -8819,7 +9044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 264.16 83.82 0)
 			(effects
 				(font
@@ -8847,6 +9072,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 264.16 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 264.16 83.82 0)
 			(effects
 				(font
@@ -9351,6 +9585,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5034801600"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -9940,6 +10183,15 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey_Part_Number" "5034801600"
+			(at 175.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "7b820ad5-5524-4eee-ba4a-815c36243d58")
 		)
@@ -10116,7 +10368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 265.43 166.37 0)
 			(effects
 				(font
@@ -10144,6 +10396,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 265.43 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 265.43 166.37 0)
 			(effects
 				(font
@@ -10376,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED diode"
 			(at 180.34 153.67 0)
 			(effects
 				(font
@@ -10404,6 +10665,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 180.34 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "150060GS75000 "
 			(at 180.34 153.67 0)
 			(effects
 				(font
@@ -10733,6 +11003,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "5104338-1 "
 			(at 119.38 92.71 0)
 			(effects
 				(font
@@ -11124,6 +11403,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 31.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "OSTVN02A150"
 			(at 31.75 83.82 0)
 			(effects
 				(font

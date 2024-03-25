@@ -1016,7 +1016,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" " 4.7u"
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -1025,7 +1025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 96.2152 109.22 0)
 			(effects
 				(font
@@ -1071,6 +1071,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "GRM31CC72A475KE11L "
 			(at 95.25 105.41 0)
 			(effects
 				(font
@@ -1180,7 +1189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -1208,6 +1217,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 170.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "TNPW06033K40BEEA "
 			(at 170.18 106.68 0)
 			(effects
 				(font
@@ -1290,7 +1308,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" " 4.7u"
 			(at 115.57 106.68 0)
 			(effects
 				(font
@@ -1299,7 +1317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 112.7252 109.22 0)
 			(effects
 				(font
@@ -1345,6 +1363,15 @@
 			)
 		)
 		(property "rating" "100v"
+			(at 111.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "GRM31CC72A475KE11L "
 			(at 111.76 105.41 0)
 			(effects
 				(font
@@ -1452,7 +1479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -1480,6 +1507,15 @@
 			)
 		)
 		(property "rating" "3.1a"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "MGAH06034R7M-10 "
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -1646,6 +1682,15 @@
 			)
 		)
 		(property "rating" ""
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "PDQ10-Q48-S5-D"
 			(at 152.4 102.87 0)
 			(effects
 				(font
