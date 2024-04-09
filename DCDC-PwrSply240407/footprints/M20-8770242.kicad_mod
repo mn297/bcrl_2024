@@ -1,29 +1,182 @@
-(module "M20-8770242" (layer F.Cu)
-  (descr "M20-8770242")
-  (tags "Connector")
-  (attr smd)
-  (fp_text reference J** (at -0.415 0.032) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at -0.415 0.032) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "M20-8770242" (at -0.415 0.032) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.54 -1.25) (end 2.54 -1.25) (layer F.Fab) (width 0.2))
-  (fp_line (start 2.54 -1.25) (end 2.54 1.25) (layer F.Fab) (width 0.2))
-  (fp_line (start 2.54 1.25) (end -2.54 1.25) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.54 1.25) (end -2.54 -1.25) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.54 -1.25) (end -2.54 1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.54 1.25) (end 0 1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.54 1.25) (end 2.54 -1.25) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.54 -1.25) (end 0 -1.25) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.27 -1.64 0) (size 1 2.51) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.27 1.64 0) (size 1 2.51) (layers F.Cu F.Paste F.Mask))
-  (model M20-8770242.stp
-    (at (xyz 0 0 0.062598426510969))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "M20-8770242"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "M20-8770242")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -0.415 0.032 0)
+		(layer "F.SilkS")
+		(uuid "be0a566d-84ce-4d82-8834-4c4727016b6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "M20-8770242"
+		(at -0.415 0.032 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a1e8ac6e-65f2-47e3-bed2-9959f1f0c87f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb6fd459-2960-4f96-bc3c-8e47960737ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd9dc40-e041-4e45-a08a-40adf09d7f09")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3403a654-9d20-4509-831b-aa38d4c7ded2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.54 -1.25)
+		(end -2.54 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a21111d-822f-48ed-bffa-6708e9462b4d")
+	)
+	(fp_line
+		(start -2.54 1.25)
+		(end 0 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a530975d-06e5-4c1b-b06c-40d7c66118bd")
+	)
+	(fp_line
+		(start 2.54 -1.25)
+		(end 0 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "337a42e5-01e4-49ba-acad-7710222ac982")
+	)
+	(fp_line
+		(start 2.54 1.25)
+		(end 2.54 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3850a6c-e301-4f53-9914-aa93e669f44b")
+	)
+	(fp_line
+		(start -2.54 -1.25)
+		(end 2.54 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a913f6fd-7b9c-438b-92d3-089fb464bd79")
+	)
+	(fp_line
+		(start -2.54 1.25)
+		(end -2.54 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44598c81-22ef-41d4-b332-50dedf80e17e")
+	)
+	(fp_line
+		(start 2.54 -1.25)
+		(end 2.54 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6288cfc9-19d4-458a-9db0-2c435726ecfb")
+	)
+	(fp_line
+		(start 2.54 1.25)
+		(end -2.54 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b10589b2-385c-4583-a7ac-286796ce27fc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.415 0.032 0)
+		(layer "F.Fab")
+		(uuid "b71864d8-8123-46a1-b3bd-e039b837cc70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 -1.64)
+		(size 1 2.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25009e4b-569e-4efd-b274-b66bf554da8e")
+	)
+	(pad "2" smd rect
+		(at 1.27 1.64)
+		(size 1 2.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "080e6473-efd5-43ba-b75c-d574c6cf6429")
+	)
+	(model "${KIPRJMOD}/3dmodels/M20-8770242.stp"
+		(offset
+			(xyz 0 0 1.590000009)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
